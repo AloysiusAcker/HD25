@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cacadd="urn:e-billing:aggregates" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cbcadd="urn:e-billing:basics" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:extadd="urn:e-billing:extension" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <extadd:ExtensionContent>
+                    <cacadd:ExtraParameters>
+                        <cbcadd:extra name="CTA JENNY YAÑEZ"><![CDATA[FAMILIA ECONOMATO]]></cbcadd:extra>
+                        <cbcadd:extra name="OF. REAL PLAZA CENTRO CIVICO"><![CDATA[PE11000175]]></cbcadd:extra>
+                    </cacadd:ExtraParameters>
+                </extadd:ExtensionContent>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+        <ext:UBLExtension>
+            <ext:ExtensionContent><Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="SIGN_20100130204-09-TABD-00000328"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>T8r1A5CsZnIFAcvA6cJ+W+1GJwk=</DigestValue></Reference></SignedInfo><SignatureValue>TM1pC1By4pQsxy4wng16dLcliZQe2z76PFUralfz/nYVO2pg41J5iVNgPv4KUA6hMpjcPdsDS4uQCzDIHd2zlbUXvkgVurmKtkdPOqhAzjgM8zkBkVzmRJF2SMnIi1RuDN3yn1Bju/KWmG4X9XOW8GcwL3i6uEd4oZn0mxteCuANhk+55GOJhuqzVCbbRIju8dohj6+M7yR+ulrDqMCO6RSGQEJ1QxK0a2uvPFo7grXjHG6c3bzmTwg4AWlfmJhSVJjon2EGJ2DMABvwS1W9rNYfvwnWc0ugYv7hJLtbXLHM9fNiROkEWS+XsR4I11nHIVEPSBZdxFU8eQJAVA9lig==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFqTCCBJGgAwIBAgIIMb8EUO7iSmswDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcNMjMwNDI2MjMzOTEwWhcNMjYwNDI1MjMzOTAwWjCCAUYxKDAmBgNVBAkMH0FWLiBQRVJTSElORyBOUk8uIDc5MCBEUFRPLiAzMDUxKzApBgkqhkiG9w0BCQEWHGthdGhlcmluZS5jYXJ2YWxsb0Bzb3Zvcy5jb20xLDAqBgNVBAMMI1NPRlRXQVJFIERFIEZBQ1RVUkFDSU9OIEVMRUNUUk9OSUNBMSwwKgYDVQQLDCNGQUNUVVJBIEVMRUNUUk9OSUNBIFJVQyAyMDU1NzEwMzkyMDEhMB8GA1UECwwYVmFsaWRhZG8gcG9yIExsYW1hLnBlIEVSMVIwUAYDVQQKDElFU0NPTlRFQ0ggREVMIFBFUlUgU09DSUVEQUQgQU5PTklNQSBDRVJSQURBICAtICBFU0NPTlRFQ0ggREVMIFBFUlUgUy5BLkMuMQ0wCwYDVQQHDARMSU1BMQswCQYDVQQGEwJQRTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALCvYkNa8OV8++Da/Q5rfwq5ioCN0WpMt9X33X4S60g+YX4nNvV6ob2wp/jhAkSh8HZI8uJo5cfDLpRui+rtdhi1fZLlW5Uf+MpM1r4sXno9Pfh/oxdHwgCiSuTVFjqeTlsXnYCAfTqdZ/eXqE2ntJ2sBiSE8y5i9g2u1FklJWGiOhBJ2qjtJXwn8ggUtt2StO0LgYRkYjt3WrIqi+ps26pMEl716iwuq3z8KzOojBHm6o6DwkV9m/FYp+Z15yMVjvSmprq6RsCG7Q9cqg4shatJ7Uh20lqyw5HAEKaLUMCwjp9XpraOoq/x60/FsUdbS3UdDqff3rU8dAFxtcmO6DMCAwEAAaOCAZcwggGTMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUXYhbretl+/5oouTZbz1XcqLvK5kwZwYIKwYBBQUHAQEEWzBZMDUGCCsGAQUFBzAChilodHRwOi8vY3J0LmxsYW1hLnBlL2xsYW1hcGVzdGFuZGFyZGNhLmNlcjAgBggrBgEFBQcwAYYUaHR0cDovL29jc3AubGxhbWEucGUwJwYDVR0RBCAwHoEca2F0aGVyaW5lLmNhcnZhbGxvQHNvdm9zLmNvbTBGBgNVHSAEPzA9MDsGDSsGAQQBg5d3AAEAAwEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly9sbGFtYS5wZS9yZXBvc2l0b3J5LzAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL2NybC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jcmwwHQYDVR0OBBYEFA7kxISMrMEQclkUvnpsfpZGPq+IMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAQEAO/wyyLTorNnT0KDkEs5LN++ZAh2EPhO9086SkCDcCEtV1M3cUvVFs2uU+u8C4uzwQ/fukyegj5IV2LnAh7rmqSWZNsuI9DX0KOmZ4YXqsPy5GMhL0+YNe/JcoyniRU2DKG51QUVZWY8jjQbMl+48N+41U5XZWFMefs1g/a7VYszevdgeVvrANPzNMW5FPLHVuk/ZAJbzDxRn5C2YUvkyiF2pfBF1gnmmu3+kj01W+uJzBBNZ1gmeR/5KPxobuEgcKpW2XJQ8OAvegpqohh4RXJY1BHa7n4jQzw4h4dAdsYDPOH1z+eI/Yd2ApVH85q3be1X0fEMPMP/TMF2AVZNEUg==</X509Certificate></X509Data></KeyInfo></Signature></ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>2.0</cbc:CustomizationID>
+    <cbc:ID>TABD-00000328</cbc:ID>
+    <cbc:IssueDate>2023-10-06</cbc:IssueDate>
+    <cbc:IssueTime>16:48:26</cbc:IssueTime>
+    <cbc:DespatchAdviceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">09</cbc:DespatchAdviceTypeCode>
+    <cbc:Note><![CDATA[04 - Traslado entre establecimientos de la misma empresa]]></cbc:Note>
+    <cac:Signature>
+        <cbc:ID>SIGN_20100130204-09-TABD-00000328</cbc:ID>
+        <cac:SignatoryParty>
+            <cac:PartyIdentification>
+                <cbc:ID>20557103920</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name><![CDATA[ESCONTECH DEL PERÚ]]></cbc:Name>
+            </cac:PartyName>
+        </cac:SignatoryParty>
+        <cac:DigitalSignatureAttachment>
+            <cac:ExternalReference>
+                <cbc:URI>#SIGN_20100130204-09-TABD-00000328</cbc:URI>
+            </cac:ExternalReference>
+        </cac:DigitalSignatureAttachment>
+    </cac:Signature>
+    <cac:DespatchSupplierParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20100130204</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name><![CDATA[BANCO BBVA PERU]]></cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:ID>150131</cbc:ID>
+                <cbc:StreetName><![CDATA[AV. REP DE PANAMA 3055 - -,URB. EL PALOMAR]]></cbc:StreetName>
+                <cbc:CityName><![CDATA[LIMA]]></cbc:CityName>
+                <cbc:CountrySubentity><![CDATA[-LIMA]]></cbc:CountrySubentity>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName><![CDATA[BANCO BBVA PERU]]></cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:DespatchSupplierParty>
+    <cac:DeliveryCustomerParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20100130204</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PostalAddress>
+                <cbc:StreetName><![CDATA[#direccion#]]></cbc:StreetName>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName><![CDATA[BANCO BBVA PERU]]></cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:DeliveryCustomerParty>
+    <cac:Shipment>
+        <cbc:ID>SUNAT_Envio</cbc:ID>
+        <cbc:HandlingCode listAgencyName="PE:SUNAT" listName="Motivo de traslado" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo20">04</cbc:HandlingCode>
+        <cbc:HandlingInstructions><![CDATA[Traslado]]></cbc:HandlingInstructions>
+        <cbc:GrossWeightMeasure unitCode="KGM">23.8</cbc:GrossWeightMeasure>
+        <cac:ShipmentStage>
+            <cbc:TransportModeCode listAgencyName="PE:SUNAT" listName="Modalidad de traslado" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo18">01</cbc:TransportModeCode>
+            <cac:TransitPeriod>
+                <cbc:StartDate>2023-10-06</cbc:StartDate>
+            </cac:TransitPeriod>
+            <cac:CarrierParty>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20102295961</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[TRADEL SERVICE S.R.L]]></cbc:RegistrationName>
+                    <cbc:CompanyID>150529</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+            </cac:CarrierParty>
+        </cac:ShipmentStage>
+        <cac:Delivery>
+            <cac:DeliveryAddress>
+                <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">150101</cbc:ID>
+                <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listID="20100130204" listName="Establecimientos anexos">0623</cbc:AddressTypeCode>
+                <cac:AddressLine>
+                    <cbc:Line><![CDATA[AV. GARCILAZO DE LA VEGA 1337 INT 2043 CENTRO CIVICO OF REAL PLAZA CENTRO CIVICO]]></cbc:Line>
+                </cac:AddressLine>
+            </cac:DeliveryAddress>
+            <cac:Despatch>
+                <cac:DespatchAddress>
+                    <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">150131</cbc:ID>
+                    <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listID="20100130204" listName="Establecimientos anexos">0862</cbc:AddressTypeCode>
+                    <cac:AddressLine>
+                        <cbc:Line><![CDATA[Av. Republica de Panamá 3055 Sótano 2 Hall 2 Almacén]]></cbc:Line>
+                    </cac:AddressLine>
+                </cac:DespatchAddress>
+            </cac:Despatch>
+        </cac:Delivery>
+    </cac:Shipment>
+    <cac:DespatchLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:DeliveredQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">10.00</cbc:DeliveredQuantity>
+        <cac:OrderLineReference>
+            <cbc:LineID>1</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Description><![CDATA[PAPEL FOTOCOPIA A4]]></cbc:Description>
+            <cac:SellersItemIdentification>
+                <cbc:ID>S/P</cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+    </cac:DespatchLine>
+</DespatchAdvice>

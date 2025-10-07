@@ -1,0 +1,20 @@
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/PagMaestra_DevExpress.master" AutoEventWireup="false" CodeFile="CRM_DxLista_CuadroMando.aspx.vb" Inherits="CRM_CRM_DxLista_CuadroMando" %>
+
+<%@ Register assembly="DevExpress.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Head" Runat="Server">
+    <link href="../Css_Gestor/FormLayout.css" rel="stylesheet" />
+    <link href="../Css_Gestor/Layout.css" rel="stylesheet" />
+    <link href="../Css_Gestor/Content.css" rel="stylesheet" />
+    <script src="../Css_Gestor/Script.js"></script>
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="LeftPanelContent" Runat="Server">
+     <dx:aspxmenu ID="ASPxMenu2" runat="server" Orientation="Vertical" cssclass="header-menu application-menu" ></dx:aspxmenu>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="RightPanelContent" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="PageToolbar" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="PageContent" Runat="Server">
+</asp:Content>
+

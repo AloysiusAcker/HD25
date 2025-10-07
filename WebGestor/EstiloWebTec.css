@@ -1,0 +1,280 @@
+﻿BODY
+{
+	text-justify: distribute;
+	word-spacing: normal;
+	text-transform: none;
+	background-color: white;
+	text-align: justify;
+}
+
+A:link
+{
+	color: GRAY;
+	text-decoration: none;
+}	
+		
+A:visited	{	
+	text-decoration:	none;
+	color:	gray;
+	}	
+		
+A:active	{	
+	text-decoration:	none;
+	color:	gray;
+	}	
+	
+/*hover: como el evento mouse move*/		
+A:hover	{	
+	text-decoration:	underline;
+	color:	gray;
+	}
+
+/*Unselected=no seleccionado*/
+A.MenuUnselected:link, A.MenuUnselected:visited
+{
+    color: GRAY;
+    font-family: Arial,Verdana;
+    text-decoration: none;
+    font-size:  11px;
+    font-weight: bold;
+    line-height: 18px;
+    padding-left: 4px
+}
+
+A.MenuUnselected:hover
+{
+	padding-left: 4px;
+	color:Gray;
+	text-decoration: underline overline;
+}
+
+A.MenuSelected:link, A.MenuSelected:visited /*cuando selecciona*/
+{
+	padding-left: 4px;
+	font-weight: bold;
+	font-size: 11px;
+	background-image: none;
+	color:gray;
+	line-height: 18px;
+	font-family:  Arial,Verdana;/*lista de fuentes opcionales, si no esta la 1 sera con la 2*/
+	text-decoration: none;
+}
+
+A.MenuSelected:hover /*hover: como el evento mouse move*/
+{
+	font-size: 11px;
+	padding-left: 4px;/*separacion*/
+	color: gray; 
+	font-family:  Arial,Verdana;
+	text-decoration: underline overline; /*raya linea alta*/
+}
+.link{color:GRAY; CURSOR: hand; font-weight:bolder ;font-family:Arial; font-size:8pt;}
+.EstiloBoton_Ac {
+    BORDER-RIGHT: Outset 1px Gray;
+    BORDER-TOP: Outset 1px Gray;
+    BORDER-LEFT: Outset 1px Gray;
+    CURSOR: hand;
+    COLOR: Gray;
+    BORDER-BOTTOM: Outset 1px Gray;
+    BACKGROUND-COLOR: LightGray;
+    font-family: Arial;
+    font-size: 8pt;
+    height: 19px;
+    font-weight: normal;
+    text-align: center
+}
+.EstiloLabel {
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: normal;
+    /*text-align: left;
+    height: 22px;*/ 
+    display: inline-block;
+    text-align: left;
+}
+.textAlinea {
+    border: 1px solid #999999;
+    border-radius: 0.3em;
+    display: inline-block;
+    margin: 0.3em auto;
+    padding: 0.1em;
+    width: 30%;
+    text-align: left;
+    background-color: white;
+    font-family: Roboto, arial, sans-serif;
+}
+.textCodAlinea {
+    border: 1px solid #999999;
+    border-radius: 0.3em;
+    display: inline-block;
+    margin: 0.3em auto;
+    padding: 0.1em;
+    width: 10%;
+    text-align: left;
+    background-color: white;
+    font-family: Roboto, arial, sans-serif;
+}
+.labelEmergente {
+    width: 15%;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+    display: inline-block;
+    text-align: left;
+}
+.EstiloTextbox {
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: normal;
+    text-align: left;
+    background-color: WhiteSmoke;
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 22px;
+    display: inline-block;
+    width: 50%;
+}
+
+
+
+.EstiloDropDownList {
+    font-family: Roboto, arial, sans-serif;
+    font-size: 8pt;
+    font-weight: normal;
+    text-align: left;
+    width:30%;
+}
+
+.EstiloBoton_Ac:hover{BACKGROUND-COLOR: gainsboro; font-family:Arial; font-size:9pt;font-weight:bolder }
+.EstiloBoton {
+    /*BORDER-RIGHT: white 1px Outset;
+    BORDER-TOP: GRAY 1px Outset;
+    BORDER-LEFT: GRAY 1px Outset;
+    BORDER-BOTTOM: GRAY 1px Outset;*/
+    CURSOR: hand;
+    COLOR: GRAY;
+    BACKGROUND-COLOR: white;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 8pt;
+    height: 19px;
+    font-weight: bolder;
+    text-align: CENTER
+}
+.EstiloGrilla {
+    color: GRAY;
+    /*font-weight: bold;*/
+    font-size: 12pt;
+    font-family: Roboto, arial, sans-serif;
+    text-align: left;
+} 
+.EstiloTitle { color:GRAY; font-weight:bold;  font-size:12pt; font-family:Arial; text-align:center} 
+.modalBackground 
+{
+	background-color:Green;
+	filter:alpha(opacity=10);
+	opacity:0.1;
+}
+.updateProgress
+{
+	border-width: 1px;
+	border-style: solid;
+	background-color: #FFFFFF;
+	position: absolute;
+	width: 180px;
+	height: 65px;
+}
+.bordeTexbox
+{  background-image :url(images/form_bg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid LightGray;
+	/*width: 230px;
+	color:gray;*/
+	padding:3px;
+	margin-right:4px;
+	margin-bottom:8px;
+	font-family:tahoma, arial, sans-serif;
+}
+
+.bordeTexbox:focus
+{   border:1px solid DimGray;
+}
+
+.bordeTexboxPag {
+    padding: 1px;
+    /*box-sizing: border-box;*/
+    border-radius: 4px;
+    background-color: WHITE;
+    resize: none;
+    border: none;
+    font-family: Arial;
+    font-size: 8pt;
+
+}
+
+.borderCbo {
+    padding: 1px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: WHITE;
+    resize: none;
+    border: none;
+    border-bottom: 2px solid LightGray;
+    font-family: Arial;
+    font-size: 8pt;
+}
+
+/*fb8 boton con imagen */
+    .fb8 {
+	background: transparent url(fotos/buttonround.gif) no-repeat;
+	border: none;
+	outline: none;
+}
+.fb8:hover {
+	background: transparent url(fotos/buttonhover.gif) no-repeat;
+	border: none;
+	outline: none;
+}
+
+#Menu2
+ {
+
+	width: 200px;
+	margin-top: 10px;
+}
+	
+#menu2 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+}
+	
+#menu2 li a:link, #menu2 li a:visited {
+	color: #777;
+	display: block;
+	background: url(images/menu8.gif);
+	padding: 8px 0 0 20px;
+}
+	
+#menu2 li a:hover {
+	color: #257EB7;
+	background: url(images/menu8.gif) 0 -32px;
+	padding: 8px 0 0 25px;
+}
+	
+#menu2 li a:active {
+	color: #fff;
+	background: url(images/menu8.gif) 0 -64px;
+	padding: 8px 0 0 25px;
+}
+
+#menu2 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#Flex{
+    align-items:center 
+}

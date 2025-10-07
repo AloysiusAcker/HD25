@@ -1,0 +1,91 @@
+<%@ Master Language="VB" CodeFile="PagPrincipal_OpLogistico.master.vb" Inherits="PagPrincipal_OpLogistico" %>
+<%@ Register Src="../Contador.ascx" TagName="Contador" TagPrefix="uc1" %>
+<%@ Register Src="../MProyLeft.ascx" TagName="MProyLeft" TagPrefix="uc2" %>
+<%@ Register Src="../MProyRight.ascx" TagName="MProyRight" TagPrefix="uc3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Gestión de Equipos de Energía</title>
+    <link href="../EstiloWebTec.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="vertical-align: middle; text-align: center">
+    <form id="form1" runat="server">
+        <script type="text/javascript" src="../jsUpdateProgress.js"></script>		
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        &nbsp;<table border="0" cellpadding="0" cellspacing="0" style="width: 911px; background-color: white;">
+            <tr>
+                <td align="left" style="width: 200px; height: 160px; background-image: url(../Fotos/proceso.JPG);" valign="top">
+                    </td>
+                <td align="left" style="width: 611px; height: 160px;" valign="top" colspan="2">
+                   <img src="../Fotos/LOGO WEBCASH-06.jpg" style="width: 611px"/>
+                </td>
+                <td align="left" style="width: 100px; height: 160px;" valign="top">
+                    </td>
+            </tr>
+            <tr>
+                <td align="left" colspan="2" style="height: 16px; width: 611px;" valign="top">
+                    <asp:LinkButton ID="Inicio" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="8pt" Height="15px" PostBackUrl="~/Default.aspx" Width="80px" Font-Underline="False" onmouseover="this.style.fontWeight='bolder'" onmouseout="this.style.fontWeight='normal'" CssClass = "EstiloBoton" Font-Italic="True">Inicio</asp:LinkButton>
+                    <asp:LinkButton ID="PaginaP" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="8pt" Height="15px" PostBackUrl="~/PaginaPrincipal.aspx" Width="120px" Font-Underline="False" onmouseover="this.style.fontWeight='bolder'" onmouseout="this.style.fontWeight='normal'" CssClass = "EstiloBoton" Font-Italic="True">Página Principal</asp:LinkButton>
+                    <asp:LinkButton ID="btnCambioPass" runat="server" CssClass="EstiloBoton" Font-Bold="False"
+                        Font-Italic="True" Font-Names="Arial" Font-Size="8pt" Font-Underline="False" Height="15px" onmouseout="this.style.fontWeight='normal'"
+                        onmouseover="this.style.fontWeight='bolder'" PostBackUrl="~/Sistema/SegSistema_CambioContraseña.aspx"
+                        Width="120px">Cambiar Contraseña</asp:LinkButton>
+                    <asp:LinkButton
+                                ID="Cerrar" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="8pt" Height="15px" PostBackUrl="~/Salida.aspx" Width="120px" Font-Underline="False" onmouseover="this.style.fontWeight='bolder'" onmouseout="this.style.fontWeight='normal'" CssClass = "EstiloBoton" Font-Italic="True">Cerrar Sesión</asp:LinkButton></td>
+                <td align="left" colspan="2" style="width: 611px; height: 16px; text-align: right"
+                    valign="top">
+                    <div
+                                    id="lblFecha" runat="server" style="font-weight: normal; font-size: 8pt; text-transform: capitalize;
+                                    width: 350px; color: seagreen; font-family: Arial; height: 16px; text-align: right; font-style: italic; display: inline;">
+                                </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="width: 200px; height: 17px; background-position: center center; background-repeat: no-repeat; background-color: transparent; text-align: left;" valign="top">
+                   <%-- <uc1:Contador ID="Contador1" runat="server" />--%>
+                </td>
+                <td align="left" colspan="3" style="height: 17px; text-align: right; width: 711px;" valign="top">
+                    <div id="lblAgrup" runat="server" style="width: 711px; color: seagreen; font-family: Arial;
+                        height: 16px; text-align: right; font-size: 8pt; font-style: italic; display: inline;">
+                    </div>
+                    &nbsp; &nbsp;&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 200px; height: 400px" valign="top">
+                    <uc2:MProyLeft ID="MProyLeft1" runat="server" />
+                </td>
+                <td align="left" style="width: 611px; height: 400px" valign="top" colspan="2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td align="left" style="width: 100px; height: 400px; text-align: right; vertical-align: top;" valign="top">
+                    <uc3:MProyRight ID="MProyRight1" runat="server" />
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td align="center" style="width: 200px; height: 15px" valign="middle">
+                    
+                </td>
+                <td align="left" style="width: 611px; height: 15px; font-weight: bold; font-size: 13pt; vertical-align: middle; color: darkgray; font-style: italic; text-align: center; font-variant: normal;" valign="top" colspan="2">
+                    Derechos Reservados: HAC-DATA</td>
+                <td align="left" style="width: 100px; height: 15px" valign="top">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="width: 200px; height: 15px" valign="middle">
+                </td>
+                <td align="left" colspan="2" style="font-weight: bold; font-size: 13pt; vertical-align: middle;
+                    width: 611px; color: darkgray; font-style: italic; height: 15px; text-align: center;
+                    font-variant: normal" valign="top">
+                </td>
+                <td align="left" style="width: 100px; height: 15px" valign="top">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+EXEC sp_attach_db @dbname = N'BDGEmpresa1BC', 
+    @filename1 = N'd:\lgbc\EC2000BDPROD\banco\BDGEmpresa1BC_Datos.mdf', 
+    @filename2 = N'd:\lgbc\EC2000BDPROD\banco\BDGEmpresa1BC_Registro.LDF'
+EXEC sp_attach_db @dbname = N'BDGrupoEmpresas', 
+    @filename1 = N'd:\lgbc\EC2000BDPROD\banco\BDGrupoEmpresas_Datos.MDF', 
+    @filename2 = N'd:\lgbc\EC2000BDPROD\banco\BDGrupoEmpresas_Registro.LDF'
+EXEC sp_attach_db @dbname = N'BDSeguridadGrupoEmps', 
+    @filename1 = N'd:\lgbc\EC2000BDPROD\banco\BDSeguridadGrupoEmps_Datos.MDF', 
+    @filename2 = N'd:\lgbc\EC2000BDPROD\banco\BDSeguridadGrupoEmps_Registro.LDF'

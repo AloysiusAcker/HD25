@@ -1,0 +1,450 @@
+﻿<%--<%@ Page Title="" Language="VB" MasterPageFile="~/PagMaestra_DevExpress.master" AutoEventWireup="false" CodeFile="CRM_BeseDatos_Mantenimiento.aspx.vb" Inherits="CRM_CRM_BeseDatos_Mantenimiento" %>--%>
+<%@ Page Language="VB" MasterPageFile="~/CRM/PagPrincipal_CRM.master" AutoEventWireup="FALSE" CodeFile="CRM_BeseDatos_Mantenimiento.aspx.vb" Inherits="CRM_CRM_BeseDatos_Mantenimiento" title="GestorPlus"  %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"	Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<%@ Register assembly="DevExpress.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+<%--<asp:Content ID="Content2" ContentPlaceHolderID="Head" Runat="Server">
+    <link href="../Css_Gestor/FormLayout.css" rel="stylesheet" />
+    <link href="../Css_Gestor/Layout.css" rel="stylesheet" />
+    <link href="../Css_Gestor/Content.css" rel="stylesheet" />
+    <script src="../Css_Gestor/Script.js"></script>
+           <script type="text/javascript">
+               function OnGridFocusedRowChanged() {
+                   // Query the server for the "EmployeeID" and "Notes" fields from the focused row
+                   // The values will be returned to the OnGetRowValues() function
+                   grid.GetRowValues(grid.GetFocusedRowIndex(), 'TICKET_codigo', OnGetRowValues);
+               }
+               function OnGetRowValues(values) {
+                   Listar_Ticket(values[1]);
+               }
+               // Value array contains "EmployeeID" and "Notes" field values returned from the server
+               function OnGridEstadoFocusedRowChanged() {
+                   // Query the server for the "EmployeeID" and "Notes" fields from the focused row
+                   // The values will be returned to the OnGetRowValues() function
+                   gridestado.GetRowValues(gridestado.GetFocusedRowIndex(), 'TICKET_ESTADO', OnGetRowValues);
+               }
+               function OnCloseUp(s, e) {
+                   btnShowHide.SetVisible(true);
+               }
+               function OnShowHideClick(s, e) {
+                   dockPanel.Show();
+                   btnShowHide.SetVisible(false);
+               }
+    </script>
+</asp:Content>--%>
+<%--<asp:Content ID="Content5" ContentPlaceHolderID="LeftPanelContent" Runat="Server">
+     <dx:aspxmenu ID="ASPxMenu2" runat="server" Orientation="Vertical" cssclass="header-menu application-menu" ></dx:aspxmenu>
+</asp:Content>--%>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <script type="text/javascript" language="javascript">
+		var ModalProgress = '<%= ModalProgress.ClientID %>';         
+    </script>
+    <div style="text-align: center">
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 1000px" id="TABLE1">
+            <tr>
+                <td align="left" style="width: 25px; height: 50px" valign="top">
+                </td>
+                <td align="left" colspan="6" style="height: 50px; text-align: center" valign="top">
+                    <div id="lblTitulo" runat="server" class="EstiloTitleMenu" style="font-weight: bold;
+                        font-size: 14pt; vertical-align: middle;color: seagreen;
+                        font-style: italic; font-family: 'Bell MT', Broadway, Arial, Serif; 
+                        height: 1px; text-align: center">
+                        Base de Conocimientos</div>
+                </td>
+                <td align="left" style="width: 25px; height: 50px" valign="top">
+                </td>
+            </tr>
+            <tr>
+                <td align="left" colspan="8" style="background-image: url(/Fotos/linea.JPG); height: 11px"
+                    valign="top">
+                </td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 25px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 80px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 255px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 80px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 255px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 80px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 200px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 25px; height: 13px" valign="top"></td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 25px; height: 18px" valign="top"></td>
+                <td align="left" colspan="2" style="height: 18px; vertical-align: middle;" valign="top">
+                    <asp:Label ID="Label1" runat="server" Font-Names="Arial" Font-Size="8pt" Text="Aplicativo"></asp:Label>
+                    <asp:DropDownList ID="cboBusAplicativo" runat="server" CausesValidation="True" Font-Names="Arial"
+                        Font-Size="8pt" Width="300px" AutoPostBack="True">
+                    </asp:DropDownList></td>
+                <td align="left" colspan="2" style="height: 18px; vertical-align: middle;" valign="top">
+                    &nbsp;</td>
+                <td align="left" colspan="2" style="height: 18px; vertical-align: middle;" valign="top">
+                    &nbsp;</td>
+                <td align="left" style="width: 25px; height: 18px" valign="top"></td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 25px; height: 20px" valign="top">
+                </td>
+                <td align="left" colspan="2" style="height: 20px" valign="top">
+                    <asp:Label ID="Label2" runat="server" Font-Names="Arial" Font-Size="8pt" Text="Producto"></asp:Label>
+<asp:DropDownList id="cboBusProducto" runat="server" Width="300px" Font-Size="8pt" Font-Names="Arial" AutoPostBack="True" CausesValidation="True"></asp:DropDownList> 
+                </td>
+                <td align="left" colspan="2" style="height: 20px" valign="top">
+                    <asp:UpdatePanel id="UpdatePanel4" runat="server">
+                        <triggers>
+<asp:AsyncPostBackTrigger ControlID="cboBusAplicativo" EventName="SelectedIndexChanged"></asp:AsyncPostBackTrigger>
+</triggers>
+                    </asp:UpdatePanel></td>
+                <td align="left" colspan="2" style="height: 20px" valign="top">
+                    <asp:UpdatePanel id="UpdatePanel5" runat="server">
+                        <triggers>
+<asp:AsyncPostBackTrigger ControlID="cboBusProducto" EventName="SelectedIndexChanged"></asp:AsyncPostBackTrigger>
+</triggers>
+                    </asp:UpdatePanel></td>
+                <td align="left" style="width: 25px; height: 20px" valign="top">
+                </td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 25px; height: 11px" valign="top">&nbsp;</td>
+                <td align="left" style="height: 11px" valign="top" colspan="2">
+                    <asp:Label ID="Label3" runat="server" Font-Names="Arial" Font-Size="8pt" Style="text-align: right" Text="Sub-Producto"></asp:Label>
+<asp:DropDownList id="cboBusSubProd" runat="server" Width="300px" Font-Size="8pt" Font-Names="Arial" AutoPostBack="True" CausesValidation="True"></asp:DropDownList> 
+                </td>
+                <td align="left" style="width: 80px; height: 11px" valign="top"></td>
+                <td align="left" colspan="3" style="height: 11px; text-align: right" valign="top"></td>
+                <td align="left" style="width: 25px; height: 11px" valign="top"></td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 25px; height: 20px" valign="top">
+                </td>
+                <td align="left" style="height: 20px" valign="top" colspan="6">
+                    <asp:Button ID="btnListar" runat="server" BorderColor="Gray" BorderStyle="Outset" onmouseout="this.style.fontWeight='normal'" onmouseover="this.style.fontWeight='bolder'"
+                        BorderWidth="1px" Font-Names="Arial" Font-Size="8pt" Text="Listar" Width="80px" BackColor="LightGray" ForeColor="Gray" />
+                    <asp:Button ID="btnNuevo" runat="server" BorderColor="Gray" BorderStyle="Outset" onmouseout="this.style.fontWeight='normal'" onmouseover="this.style.fontWeight='bolder'"
+                        BorderWidth="1px" Font-Names="Arial" Font-Size="8pt" Text="Nuevo" Width="80px" BackColor="LightGray" ForeColor="Gray" />
+                </td>
+                <td align="left" style="width: 25px; height: 20px" valign="top">
+                </td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 25px; height: 20px" valign="top">
+                </td>
+                <td align="left" colspan="6" style="height: 20px" valign="top">
+                    <asp:UpdatePanel id="UpdatePanel6" runat="server">
+                        <contenttemplate>
+                            <asp:Label id="lblCount" runat="server" ForeColor="Maroon" Font-Size="8pt" Font-Names="Arial" Font-Bold="True" Text="Total de Registros : 0"></asp:Label>
+                        </contenttemplate>
+                        <triggers>
+                            <asp:AsyncPostBackTrigger ControlID="btnListar" EventName="Click"></asp:AsyncPostBackTrigger>
+                        </triggers>
+                    </asp:UpdatePanel></td>
+                <td align="left" style="width: 25px; height: 20px" valign="top">
+                </td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 25px; height: 18px" valign="top">
+                </td>
+                <td align="left" colspan="6" style="height: 18px" valign="top">
+                    <div style="border-right: seagreen 1px outset; border-top: seagreen 1px outset; overflow: auto;
+                        border-left: seagreen 1px outset; width:950px; border-bottom: seagreen 1px outset">
+                        <asp:UpdatePanel id="UpdatePanel3" runat="server">
+                            <contenttemplate>
+                                <asp:GridView id="Flex" runat="server" Width="1700px" Font-Size="8pt" Font-Names="Arial" AutoGenerateColumns="False" PageSize="40" DataKeyNames="CARCON_APLICATIVO,CARCON_PRODUCTO,CARCON_SUBPRODUCTO"><Columns>
+                                <asp:ButtonField Text="Editar" ButtonType="Button" CommandName="Editar">
+                                <ControlStyle BackColor="LightGray" BorderStyle="Outset" Width="40px" BorderWidth="1px" BorderColor="Gray" Font-Size="8pt" Font-Names="Arial"></ControlStyle>
+
+                                <ItemStyle Width="50px" HorizontalAlign="Center" VerticalAlign="Middle"></ItemStyle>
+                                </asp:ButtonField>
+                                <asp:BoundField DataField="NIVEL1_DESCRIP" HeaderText="Aplicativo">
+                                <ItemStyle Width="100px" HorizontalAlign="Left" VerticalAlign="Top"></ItemStyle>
+
+                                <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle"></HeaderStyle>
+                                </asp:BoundField>
+                                <asp:BoundField DataField="PRODUCTO" HeaderText="Producto">
+                                <ItemStyle Width="100px" HorizontalAlign="Left" VerticalAlign="Top"></ItemStyle>
+
+                                <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle"></HeaderStyle>
+                                </asp:BoundField>
+                                <asp:BoundField DataField="subproducto" HeaderText="Sub-Producto">
+                                <ItemStyle Width="100px" HorizontalAlign="Left" VerticalAlign="Top"></ItemStyle>
+
+                                <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle"></HeaderStyle>
+                                </asp:BoundField>
+                                <asp:BoundField DataField="CARCON_TRANSACCION" HeaderText="Transacci&#243;n">
+                                <ItemStyle Width="200px" HorizontalAlign="Left" VerticalAlign="Top"></ItemStyle>
+
+                                <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle"></HeaderStyle>
+                                </asp:BoundField>
+                                <asp:BoundField DataField="CARCON_CONSULTA" HeaderText="Consulta">
+                                <ItemStyle Width="200px" HorizontalAlign="Left" VerticalAlign="Top"></ItemStyle>
+
+                                <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle"></HeaderStyle>
+                                </asp:BoundField>
+                                <asp:BoundField DataField="CARCON_SOLUCION" HeaderText="Soluci&#243;n">
+                                <ItemStyle Width="1000px" HorizontalAlign="Left" VerticalAlign="Top"></ItemStyle>
+
+                                <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle"></HeaderStyle>
+                                </asp:BoundField>
+                                <asp:BoundField DataField="CARCON_CODIGO">
+                                <ItemStyle Width="0px"></ItemStyle>
+                                </asp:BoundField>
+                                <asp:BoundField DataField="CARCON_APLICATIVO">
+                                <ItemStyle Width="0px"></ItemStyle>
+                                </asp:BoundField>
+                                <asp:BoundField DataField="CARCON_PRODUCTO">
+                                <ItemStyle Width="0px"></ItemStyle>
+                                </asp:BoundField>
+                                <asp:BoundField DataField="CARCON_SUBPRODUCTO">
+                                <ItemStyle Width="0px"></ItemStyle>
+                                </asp:BoundField>
+                                </Columns>
+                                </asp:GridView> 
+
+
+<%--                                <dx:ASPxGridView ID="grid" runat="server" 
+                                        AutoGenerateColumns="False">
+                                        <SettingsDataSecurity AllowDelete="False" AllowEdit="False" AllowInsert="False" />
+                                        <SettingsPopup>
+                                        <HeaderFilter MinHeight="140px"></HeaderFilter>
+                                        </SettingsPopup>
+                                        <StylesPopup>
+                                            <HeaderFilter>
+                                                <Header BackColor="White">
+                                                </Header>
+                                            </HeaderFilter>
+                                        </StylesPopup>
+                                        <Columns>
+                                          <dx:GridViewDataTextColumn  FieldName ="NIVEL1_DESCRIP" VisibleIndex="0" Caption="Aplicativo" SortOrder="Ascending" SortIndex="0">
+                                              <Settings AllowSort="True" SortMode="Value" />
+                                              <HeaderStyle BackColor="White" ForeColor="black" HorizontalAlign="Center" />
+                                          </dx:GridViewDataTextColumn>
+                                          <dx:GridViewDataTextColumn FieldName="PRODUCTO" Caption="Producto" VisibleIndex="1" >
+                                              <Settings AllowSort="True" />
+                                              <HeaderStyle BackColor="White" ForeColor="black" HorizontalAlign="Center" />
+                                          </dx:GridViewDataTextColumn>
+                                          <dx:GridViewDataTextColumn FieldName="SUBPRODUCTO" Caption="Sub-Producto" VisibleIndex="2" >
+                                              <Settings AllowSort="True" />
+                                              <HeaderStyle BackColor="White" ForeColor="black" HorizontalAlign="Center" />
+                                          </dx:GridViewDataTextColumn>
+                                          <dx:GridViewDataTextColumn FieldName="CARCON_TRANSACCION" VisibleIndex="3" caption="Transación">
+                                              <Settings AllowSort="True" />
+                                              <HeaderStyle BackColor="White" ForeColor="black" HorizontalAlign="Center" />
+                                          </dx:GridViewDataTextColumn>
+                                          <dx:GridViewDataTextColumn FieldName="CARCON_CONSULTA" VisibleIndex="4" Caption="Consulta" >
+                                              <Settings AllowSort="True" />
+                                              <HeaderStyle BackColor="White" ForeColor="black" HorizontalAlign="Center" />
+                                          </dx:GridViewDataTextColumn>
+                                          <dx:GridViewDataTextColumn FieldName="CARCON_SOLUCION" VisibleIndex="5" Caption="Solución" >
+                                              <Settings AllowSort="True" />
+                                              <HeaderStyle BackColor="White" ForeColor="black" HorizontalAlign="Center" />
+                                          </dx:GridViewDataTextColumn>
+                                          <dx:GridViewDataTextColumn FieldName="CARCON_CODIGO" VisibleIndex="6" Visible="false" >
+                                              <Settings AllowSort="True" SortMode="Value" />
+                                              <HeaderStyle BackColor="White" ForeColor="black" HorizontalAlign="Center" />
+                                          </dx:GridViewDataTextColumn>
+                                          <dx:GridViewDataTextColumn FieldName="CARCON_APLICATIVO" VisibleIndex="7" Visible="false" >
+                                              <Settings AllowSort="True" SortMode="Value" />
+                                              <HeaderStyle BackColor="White" ForeColor="black" HorizontalAlign="Center" />
+                                          </dx:GridViewDataTextColumn>
+                                          <dx:GridViewDataTextColumn FieldName="CARCON_PRODUCTO" VisibleIndex="8" Visible="false" >
+                                              <Settings AllowSort="True" SortMode="Value" />
+                                              <HeaderStyle BackColor="White" ForeColor="black" HorizontalAlign="Center" />
+                                          </dx:GridViewDataTextColumn>
+                                          <dx:GridViewDataTextColumn FieldName="CARCON_SUBPRODUCTO" VisibleIndex="9" Visible="false" >
+                                              <Settings AllowSort="True" SortMode="Value" />
+                                              <HeaderStyle BackColor="White" ForeColor="black" HorizontalAlign="Center" />
+                                          </dx:GridViewDataTextColumn>
+                                        </Columns>
+                                        <Styles>
+                                            <GroupRow BackColor="White" Font-Names="Arial" Font-Size="8pt">
+                                            </GroupRow>
+                                            <FocusedGroupRow BackColor="White" ForeColor="Black">
+                                            </FocusedGroupRow>
+                                            <SelectedRow BackColor="#3399FF" ForeColor="Black">
+                                            </SelectedRow>
+                                            <FilterRow BackColor="White">
+                                            </FilterRow>
+                                            <FilterCell BackColor="#66CCFF" Border-BorderColor="White" Border-BorderStyle="None" ForeColor="Black">
+                                            </FilterCell>
+                                            <EditForm BackColor="White">
+                                            </EditForm>
+                                            <HeaderFilterItem BackColor="White">
+                                            </HeaderFilterItem>
+                                        </Styles>
+                                        <Border BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" />
+                                        <SettingsAdaptivity AdaptivityMode="HideDataCells" />
+                                        <settingspager numericbuttoncount="50" visible="False">
+                                        </settingspager>
+                                        <SettingsBehavior AllowFocusedRow="true" />
+                                        <ClientSideEvents FocusedRowChanged="function(s, e) { OnGridFocusedRowChanged(); }" />
+                                  </dx:ASPxGridView>--%>
+
+
+
+                            </contenttemplate>
+                            <triggers>
+                            <asp:AsyncPostBackTrigger ControlID="Flex" EventName="PageIndexChanging"></asp:AsyncPostBackTrigger>
+                            <asp:AsyncPostBackTrigger ControlID="btnListar" EventName="Click"></asp:AsyncPostBackTrigger>
+                            </triggers>
+
+                        </asp:UpdatePanel></div>
+                    &nbsp; &nbsp; &nbsp;<br />
+                </td>
+                <td align="left" style="width: 25px; height: 18px" valign="top">
+                </td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 25px; height: 19px" valign="top"></td>
+                <td align="left" colspan="5" style="height: 19px" valign="top"></td>
+                <td align="left" style="width: 200px; height: 19px" valign="top"></td>
+                <td align="left" style="width: 25px; height: 19px" valign="top"></td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 25px; height: 20px" valign="top">
+                </td>
+                <td align="left" colspan="6" style="height: 20px" valign="top">
+                    <asp:UpdatePanel ID="UpdatePanel7" runat="server">
+                        <ContentTemplate>
+                            <table id="lblIngreso" runat="server" border="0" cellpadding="0" cellspacing="0"
+                                style="width: 550px" visible="false">
+                                <tr>
+                                    <td align="left" colspan="3" style="vertical-align: middle; height: 22px" valign="top">
+                                        <asp:Label ID="lblEtiqueta" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="8pt"
+                                        ForeColor="Maroon" Visible="False"></asp:Label></td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="vertical-align: middle; width: 190px; height: 18px" valign="top">
+                                        <asp:Label ID="lblEtiqueta1" runat="server" Font-Names="Arial" Font-Size="8pt" Text="Aplicativo"
+                                            Visible="False"></asp:Label></td>
+                                    <td align="left" style="vertical-align: middle; width: 190px; height: 18px" valign="top">
+                                        <asp:Label ID="lblEtiqueta2" runat="server" Font-Names="Arial" Font-Size="8pt" Text="Producto"
+                                            Visible="False" Width="50px"></asp:Label></td>
+                                    <td align="left" style="vertical-align: middle; width: 170px; height: 18px" valign="top">
+                                        <asp:Label ID="lblEtiqueta3" runat="server" Font-Names="Arial" Font-Size="8pt" Text="Sub-Producto"
+                                            Visible="False" Width="84px"></asp:Label></td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="vertical-align: middle; width: 190px; height: 22px" valign="top">
+                                        <asp:DropDownList ID="cboAplicativo" runat="server" CausesValidation="True" Font-Names="Arial"
+                                            Font-Size="8pt" Visible="False" Width="184px" AutoPostBack="True">
+                                        </asp:DropDownList></td>
+                                    <td align="left" style="vertical-align: middle; width: 190px; height: 22px" valign="top">
+                                    <asp:UpdatePanel id="UpdatePanel1" runat="server">
+                                        <contenttemplate>
+                                        <asp:DropDownList id="cboProducto" runat="server" Width="184px" Font-Size="8pt" Font-Names="Arial" Visible="False" AutoPostBack="True" CausesValidation="True"></asp:DropDownList> 
+                                        </contenttemplate>
+                                    <triggers>
+                                    <asp:AsyncPostBackTrigger ControlID="cboAplicativo" EventName="SelectedIndexChanged"></asp:AsyncPostBackTrigger>
+                                    </triggers>
+                                    </asp:UpdatePanel>
+                                    </td>
+                                    <td align="left" style="vertical-align: middle; width: 170px; height: 22px" valign="top">
+                    <asp:UpdatePanel id="UpdatePanel2" runat="server">
+                        <contenttemplate>
+<asp:DropDownList id="cboSubProd" runat="server" Width="170px" Font-Size="8pt" Font-Names="Arial" Visible="False" AutoPostBack="True" CausesValidation="True"></asp:DropDownList> 
+</contenttemplate>
+                        <triggers>
+<asp:AsyncPostBackTrigger ControlID="cboProducto" EventName="SelectedIndexChanged"></asp:AsyncPostBackTrigger>
+</triggers>
+                    </asp:UpdatePanel>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="vertical-align: middle; width: 190px; height: 18px" valign="top">
+                    <asp:Label ID="lblEtiqueta4" runat="server" Font-Names="Arial" Font-Size="8pt" Text="Transacción"
+                        Visible="False" Width="64px"></asp:Label></td>
+                                    <td align="left" style="width: 190px; height: 18px" valign="top">
+                                    </td>
+                                    <td align="left" style="width: 170px; height: 18px" valign="top">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" colspan="3" style="vertical-align: middle" valign="top">
+                    <asp:TextBox ID="txtTransaccion" runat="server" Font-Names="Arial" Font-Size="8pt"
+                        Height="50px" TextMode="MultiLine" Visible="False" Width="544px"></asp:TextBox></td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="vertical-align: middle; width: 190px; height: 18px" valign="top">
+                    <asp:Label ID="lblEtiqueta5" runat="server" Font-Names="Arial" Font-Size="8pt" Text="Consulta"
+                        Visible="False"></asp:Label></td>
+                                    <td align="left" style="width: 190px; height: 18px" valign="top">
+                                    </td>
+                                    <td align="left" style="width: 170px; height: 18px" valign="top">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" colspan="3" style="vertical-align: middle" valign="top">
+                    <asp:TextBox ID="txtConsulta" runat="server" Font-Names="Arial" Font-Size="8pt" Height="50px"
+                        TextMode="MultiLine" Visible="False" Width="544px"></asp:TextBox></td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="vertical-align: middle; width: 190px; height: 18px" valign="top">
+                    <asp:Label ID="lblEtiqueta6" runat="server" Font-Names="Arial" Font-Size="8pt" Text="Solución"
+                        Visible="False"></asp:Label></td>
+                                    <td align="left" style="width: 190px; height: 18px" valign="top">
+                                    </td>
+                                    <td align="left" style="width: 170px; height: 18px" valign="top">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" colspan="3" style="vertical-align: middle; height: 58px" valign="top">
+                    <asp:TextBox ID="txtSolucion" runat="server" Font-Names="Arial" Font-Size="8pt" Height="50px"
+                        TextMode="MultiLine" Visible="False" Width="544px"></asp:TextBox></td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="width: 190px; height: 25px" valign="top">
+                                        <asp:TextBox ID="txtCodConsulta" runat="server" Font-Names="Arial" Font-Overline="False"
+                                            Font-Size="8pt" ReadOnly="True" Width="39px"></asp:TextBox></td>
+                                    <td align="left" colspan="2" style="height: 25px; text-align: right; vertical-align: middle;" valign="top">
+                                        <asp:Button ID="btnGuardar" runat="server" BorderColor="Gray" BorderStyle="Outset"
+                        BorderWidth="1px" Font-Names="Arial" Font-Size="8pt" Text="Guardar" onmouseout="this.style.fontWeight='normal'" onmouseover="this.style.fontWeight='bolder'"
+                        Width="80px" Visible="False" BackColor="LightGray" ForeColor="Gray" />
+                    <asp:Button ID="btnCancelar" runat="server" BorderColor="Gray" BorderStyle="Outset"
+                        BorderWidth="1px" Font-Names="Arial" Font-Size="8pt" Text="Cancelar" onmouseout="this.style.fontWeight='normal'" onmouseover="this.style.fontWeight='bolder'"
+                        Width="80px" Visible="False" BackColor="LightGray" ForeColor="Gray" /></td>
+                                </tr>
+                            </table>
+                        </ContentTemplate>
+                        <Triggers>
+                            <asp:AsyncPostBackTrigger ControlID="btnNuevo" EventName="Click" />
+                            <asp:AsyncPostBackTrigger ControlID="Flex" EventName="RowCommand" />
+                        </Triggers>
+                    </asp:UpdatePanel>
+                </td>
+                <td align="left" style="width: 25px; height: 20px" valign="top">
+                </td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 25px; height: 20px" valign="top">
+                </td>
+                <td align="left" colspan="6" style="height: 20px" valign="top">
+                    <asp:Label ID="lblError" runat="server" Font-Names="Arial" Font-Size="8pt" ForeColor="Red"
+                        Width="498px"></asp:Label></td>
+                <td align="left" style="width: 25px; height: 20px" valign="top">
+                </td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 25px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 80px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 255px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 80px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 255px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 80px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 200px; height: 13px" valign="top"></td>
+                <td align="left" style="width: 25px; height: 13px" valign="top"></td>
+            </tr>
+        </table>
+    </div>
+    <asp:Panel ID="panelUpdateProgress" runat="server" Width="200px" CssClass="updateProgress">
+                        <asp:UpdateProgress ID="UpdateProg1" runat="server" DisplayAfter="0">
+                            <ProgressTemplate>
+                                <div style="position: relative; top: 30%; text-align: center;">
+                                    <img src="/Fotos/5.gif" /></div>
+                            </ProgressTemplate>
+                        </asp:UpdateProgress>
+                    </asp:Panel>
+                    <cc1:ModalPopupExtender ID="ModalProgress" runat="server" TargetControlID="panelUpdateProgress"
+			            BackgroundCssClass="modalBackground" PopupControlID="panelUpdateProgress" />
+</asp:Content>

@@ -1,0 +1,130 @@
+<%@ Master Language="VB" CodeFile="PagPrincipal.master.vb" Inherits="PagPrincipal" %>
+
+
+<%@ Register Src="~/CProyLeft.ascx" TagPrefix="uc1" TagName="CProyLeft" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Gestor Plus</title>
+<%--    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />--%>
+    <link href="css/CSSWeb.css" rel="stylesheet" />
+    <link href="EstiloWebTec.css" rel="stylesheet" type="text/css" />
+    <link href="Css_WebGestor.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript">
+        function MantenSesion() {
+            var CONTROLADOR = 'refresh_session.ashx';
+            var head = document.getElementsByTagName('head').item(0);
+            script = document.createElement('script');
+            script.src = CONTROLADOR;
+            script.setAtribute('type', 'text/javascript');
+            script.defer = true;
+            head.appendChild(script);
+        }
+    </script> 
+    <style type="text/css">
+        .auto-style1 {
+            width:1100px;
+        }
+        .auto-style2 {
+            width: 200px;
+            height: 160px;
+        }
+        .auto-style3 {
+            width: 289px;
+            height: 160px;
+        }
+        .auto-style4 {
+            width: 200px;
+            height: 17px;
+        }
+        .auto-style5 {
+            width: 200px;
+        }
+        .auto-style6 {
+            width:289px;
+        }
+        .auto-style7 {
+            width: 200px;
+            height: 15px;
+        }
+        .auto-style8 {
+            width:289px;
+            height: 15px;
+        }
+        .auto-style9 {
+            height: 15px;
+            width: 504px;
+        }
+    </style>
+</head>
+<body style="vertical-align: middle; text-align: center">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="True"
+            EnableScriptLocalization="True">
+        </asp:ScriptManager>
+        <table border="0" cellpadding="0" cellspacing="0" style="background-color: white;" class="auto-style1">
+            <tr>
+                <td align="left" style="border-color: gray; border-width: 1px; vertical-align: middle; text-align: center; background-image: url('Fotos/proceso.JPG'); " valign="top" class="auto-style2">
+                    </td>
+                <td align="left" style="width: 611px; height: 160px;" valign="top" colspan="2">
+                   <img src="Fotos/LOGO WEBCASH-06.jpg" style="width: 611px"/>
+                </td>
+                <td align="left" valign="top" class="auto-style3">
+                    </td>
+            </tr>
+            <tr>
+                <td align="left" colspan="2" valign="top" style="height: 15px; width: 500px;" >
+                    <asp:LinkButton ID="Inicio" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="8pt" Height="15px" PostBackUrl="~/Default2.aspx" Width="60px" Font-Underline="False" onmouseout="this.style.fontWeight='normal'" onmouseover="this.style.fontWeight='bolder'" CssClass = "EstiloBoton" Font-Italic="FALSE">Inicio</asp:LinkButton>
+                    <asp:LinkButton ID="PaginaP" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="8pt" Height="15px" PostBackUrl="~/Cas/Cas_Relacion_AvisoxUsuario.aspx" Width="100px" Font-Underline="False" onmouseout="this.style.fontWeight='normal'" onmouseover="this.style.fontWeight='bolder'" CssClass = "EstiloBoton" Font-Italic="FALSE">PáginaPrincipal</asp:LinkButton>
+                    <asp:LinkButton ID="btnCambioPass" runat="server" Font-Bold="False" Font-Italic="FALSE" Font-Names="Arial" Font-Size="8pt" Font-Underline="False" Height="15px" PostBackUrl="~/Sistema/SegSistema_CambioContraseña.aspx"  Width="120px" onmouseout="this.style.fontWeight='normal'" onmouseover="this.style.fontWeight='bolder'" CssClass="EstiloBoton">Cambiar Contraseña</asp:LinkButton>
+                    <asp:LinkButton ID="Cerrar" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="8pt" Height="15px" PostBackUrl="~/Salida.aspx" Width="100px" Font-Underline="False" Font-Italic="FALSE" onmouseout="this.style.fontWeight='normal'" onmouseover="this.style.fontWeight='bolder'" CssClass="EstiloBoton">Cerrar Sesión</asp:LinkButton></td>
+                <td align="left" colspan="2" style="width: 600px; height: 15px; text-align: right" valign="top">
+                    <div id="lblFecha" runat="server" style="font-weight: normal; font-size: 8pt; text-transform: capitalize;
+                                    width: 350px; color: seagreen; font-family: Arial; height: 16px; text-align: right; font-style: italic; display: inline;">
+                     </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="background-position: center center; background-repeat: no-repeat; background-color: transparent; text-align: left;" valign="top" class="auto-style4">
+
+                </td>
+                <td align="left" colspan="3" style="height: 17px; text-align: right; width: 900px;" valign="top">
+                    <div id="lblAgrup" runat="server" style="width: 700px; color: seagreen; font-family: Arial;
+                        height: 17px; text-align: right; font-size: 8pt; font-style: italic; display: inline;">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="left" valign="top" class="auto-style5">
+                    <uc1:CProyLeft runat="server" ID="CProyLeft" />
+                </td>
+                <td align="left" style="width: 611px; height: 300px;" valign="top" colspan="2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td align="left" style="text-align: right; vertical-align: top; " valign="top" class="auto-style6">
+
+                </td>
+            </tr>
+            <tr>
+                <td align="center" valign="middle" class="auto-style7"></td>
+                <td align="left" style="width: 611px; height: 15px; font-weight: bold; font-size: 13pt; vertical-align: middle; color: darkgray; font-style: italic; text-align: center; font-variant: normal;" valign="top" colspan="2">
+                    Derechos Reservados: HAC DATA </td>
+                <td align="left" valign="top" class="auto-style8"></td>
+            </tr>
+            <tr>
+                <td align="center" valign="middle" class="auto-style7"></td>
+                <td align="left" colspan="2" style="font-weight: bold; font-size: 13pt; vertical-align: middle;
+                    width: 611px; color: darkgray; font-style: italic; height: 15px; text-align: center;
+                    font-variant: normal" valign="top">
+                </td>
+                <td align="left" valign="top" class="auto-style8"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+    Private Sub GvListaConciliados_RowCommand(sender As Object, e As GridViewCommandEventArgs) Handles GvListaConciliados.RowCommand
+        Dim Index As Integer = Convert.ToInt32(e.CommandArgument)
+        Dim obj As New Cls_Conciliados
+        Dim objCn As New Cls_Conexion
+        Dim dt As New DataTable
+        Dim NroPlaca As String = GvListaConciliados.Rows(Index).Cells(5).Text
+        Dim NroSerie As String = GvListaConciliados.Rows(Index).Cells(4).Text
+        Dim psconexion As String = Session("Ruta_Emp")
+        If e.CommandName = "CambiarEstado" Then
+            dt = obj.Buscar_Serie_Numerar(psconexion, NroPlaca, NroSerie)
+            If dt.Rows.Count > 0 Then
+                Dim DvRow As DataRow = dt.Rows(0)
+                LblSerieNum.Text = DvRow(0)
+                ScriptManager.RegisterStartupScript(Me, Me.Page.GetType, "", "$('#ModalCambiarEstado').modal('show');", True)
+            End If
+        ElseIf e.CommandName = "Conciliar" Then
+            dt = obj.Lista_Equipos_Conciliados(psconexion, Session("CodEmpresa"), "%", "%", NroSerie, 0, 0, "", "", "0", 0, 0, "0", "0", "", "", DdlInventario.SelectedValue)
+            GvListaConciliadosCON.DataSource = dt
+            GvListaConciliadosCON.DataBind()
+            If dt.Rows.Count = 1 Then
+                For Each drow As DataRow In dt.Rows
+                    LblSerieNum.Text = Nz(drow("SERIE_NUMERAR"))
+                Next
+            End If
+            Ficha.TabIndex = 1
+            Ficha_ActiveTabChanged(sender, e)
+        End If
+    End Sub

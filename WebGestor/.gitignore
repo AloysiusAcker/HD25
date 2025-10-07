@@ -1,0 +1,18 @@
+# Large backup files
+/WebGestor/Inventario/BKP1BB
+
+# General backup files
+*BKP*
+*.bkp
+
+# Visual Studio files
+*.vs
+*.sln
+*.suo
+*.user
+*.csproj.user
+*.vbproj.user
+
+# Binaries
+bin/
+obj/

@@ -1,0 +1,36 @@
+﻿<%@ Master Language="VB" CodeFile="EvalProcesos_PagMaster.master.vb" Inherits="EvaluacionProcesos_EvalProcesos_PagMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  <title>Gestor</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <%-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />--%>
+    <meta name="HandheldFriendly" content="true" />
+    <link href="../Css_WebGestor.css" rel="stylesheet" />
+    <link href="../EstiloWebTec.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    </div>
+    <section id="web">
+        <img src="../Fotos/LOGO WEBCASH-06.jpg" />
+        <img src="../Fotos/lineaCas.jpg" />
+        <nav>
+            <ul>
+                <li > <asp:LinkButton ID="Inicio" runat="server"  PostBackUrl="~/Default.aspx"  Font-Names="Arial" >Inicio</asp:LinkButton></li>
+                <li > <asp:LinkButton ID="PaginaP" runat="server" EnableTheming="False" PostBackUrl="~/PagPrincipal.aspx" Font-Names="Arial" >Página Principal</asp:LinkButton></li>
+                <li > <asp:LinkButton ID="Cerrar" runat="server" PostBackUrl="~/TerminaSesion.aspx"  Font-Names="Arial" >Cerrar Sesión</asp:LinkButton></li>
+            </ul>
+        <div id="lblFecha" runat="server" style="display: inline; font-size: 8pt;  font-family: Arial;  text-align: right"></div><br>
+        <div id="lblAgrup" runat="server" style="display: inline; font-size: 8pt;  font-family: Arial;  text-align: right"></div><br>
+        </nav>
+        <asp:Label ID="lblUsuario" runat="server" Font-Names="Arial" Font-Size="8pt" ForeColor="DarkGray"></asp:Label><br>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </section>
+    </form>
+</body>
+</html>

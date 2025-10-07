@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XMLServidor>
+   <Servidor>
+    <Empresa>BBVA HAC-DATA04\bbva</Empresa>
+    <Nombre>HAC-DATA04\bbva</Nombre>
+  </Servidor>
+    <Servidor>
+    <Empresa>PRUEBAS HERBERT STARBUCKS</Empresa>
+    <Nombre>HERBERT\STARBUCKS</Nombre>
+  </Servidor>
+    <Servidor>
+    <Empresa>PRODUCCION</Empresa>
+    <Nombre>TECNO2021A\TECNOPROD21</Nombre>
+  </Servidor>
+  <Servidor>
+    <Empresa>PRUEBAS OPPLUS TECNO2021A</Empresa>
+    <Nombre>TECNO2021A\pruebas</Nombre>
+  </Servidor>
+  <Servidor>
+    <Empresa>BBVA</Empresa>
+    <Nombre>TECNO2021A</Nombre>
+  </Servidor>
+  <Servidor>
+    <Empresa>BBVA PRUEBAS</Empresa>
+    <Nombre>TECNO2021A\BBVA</Nombre>
+  </Servidor>
+  <Servidor>
+    <Empresa>HERBERT OPPLUS</Empresa>
+    <Nombre>HERBERT\OPPLUS</Nombre>
+  </Servidor>
+</XMLServidor>

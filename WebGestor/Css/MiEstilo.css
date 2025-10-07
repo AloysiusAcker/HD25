@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("../imagenes/fondoPantalla.jpg");
+}
+
+#cuerpo {
+	background-image: url("../imagenes/fondoLogin.jpg");
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: center;
+	margin: 0 auto;
+	width: 75%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: cursive;
+}
+
+#id_form {
+	flex-basis: 34em;
+}
+
+#titulo {
+	font-size: 27px;
+	text-align: center;
+}
+
+.form-group {
+	margin: 1em 0;
+}
+
+.control-label {
+	font-size: 17px;
+	width: 7em;
+}
+
+.form-control {
+	width: 23em;
+	float: right;
+	font-size: 15px;
+	line-height: 2;
+	border: 1px solid gray;
+	border-radius: 6px;
+}
+
+#control-button {
+	padding: 6px 12px;
+	float: right;
+	vertical-align: middle;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 14px;
+	color: white;
+	border-radius: 20px;
+	border: 1px solid gray;
+}

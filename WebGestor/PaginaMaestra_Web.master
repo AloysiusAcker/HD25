@@ -1,0 +1,52 @@
+﻿<%@ Master Language="VB" CodeFile="PaginaMaestra_Web.master.vb" Inherits="PaginaMaestra_Web" %>
+
+<!DOCTYPE html>
+
+
+<html lang="es">
+<head runat="server">
+    <title></title>
+        
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+   
+    <link rel="stylesheet" type="text/css" href="css/check.css"/>
+    <script src="Script/jQuery_Login.js"></script>
+    <link href="Css_WebGestor.css" rel="stylesheet" />
+    <link href="Css_IniciarSesion.css" rel="stylesheet" />
+    <script type="text/javascript">      
+    </script>    
+    <style type="text/css"></style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        
+
+            <div class="login">
+                <div class="form-wrapper-outer">
+                    <div id="lblBanner" class="form-logo">
+                        <img src="Fotos/logo login.jpg" />
+                    </div> 
+                    <nav>
+            
+                    <div id="lblFecha" runat="server" style="display: inline; font-size: 8pt;  font-family: Arial;  text-align: left"></div><br/>
+                    <div id="lblAgrup" runat="server" style="display: inline; font-size: 8pt;  font-family: Arial;  text-align: left"></div><br/>
+                    </nav>
+                    <asp:Label ID="lblUsuario" runat="server" Font-Names="Arial" Font-Size="8pt" ForeColor="DarkGray"></asp:Label><br/>
+            
+                    <div id="lblLinea" class="title" >
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                    </asp:ContentPlaceHolder>
+
+                </div> 
+            </div> 
+
+       
+    </form>
+</body>
+</html>

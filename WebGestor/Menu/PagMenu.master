@@ -1,0 +1,76 @@
+<%@ Master Language="VB" CodeFile="PagMenu.master.vb" Inherits="Menu_PagMenu" %>
+<%@ Register Src="~/MProyLeft.ascx" TagName="MProyLeft" TagPrefix="uc4" %>
+<%@ Register Src="~/Contador.ascx" TagName="Contador" TagPrefix="uc3" %>
+<%@ Register Src="~/MProyRight.ascx" TagName="MProyRight" TagPrefix="uc2" %>
+<%@ Register Src="~/ControlMenu.ascx" TagName="ControlMenu" TagPrefix="uc1" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="../EstiloWebTec.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="vertical-align: middle; text-align: center">
+    <form id="form1" runat="server">
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 911px">
+            <tr>
+                <td align="left" style="width: 200px; height: 160px;" valign="top">
+                    <img src="../Menu/ArchModMenu/Imagenes/proceso.JPG" /></td>
+                <td align="left" style="background-image: url(Menu/ArchModMenu/Imagenes/FONDO WEB.JPG); width: 611px; height: 160px"
+                    valign="top" colspan="2">
+                    <img  src="../Menu/ArchModMenu/Imagenes/FONDO%20WEB.JPG" /></td>
+                <td align="left" style="width: 100px; height: 160px;" valign="top">
+                    <img src="../Menu/ArchModMenu/Imagenes/COMPLEMENTO5.JPG" style="width: 100px; height: 160px" /></td>
+            </tr>
+            <tr>
+                <td align="left" colspan="2" style="height: 20px; width: 511px;" valign="top">
+                    <asp:LinkButton ID="Hyperlink1" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="8pt" onmouseover="this.style.fontWeight='bolder'" onmouseout="this.style.fontWeight='normal'" CssClass = "EstiloBoton" Height="15px" PostBackUrl="~/Default.aspx" Width="80px" Font-Italic="True" Font-Underline="False">Inicio</asp:LinkButton>
+                    <asp:LinkButton ID="Hyperlink2" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="8pt" Height="15px" PostBackUrl="~/PaginaPrincipal.aspx" Width="104px" Font-Italic="True" Font-Underline="False" onmouseover="this.style.fontWeight='bolder'" onmouseout="this.style.fontWeight='normal'" CssClass = "EstiloBoton">PáginaPrincipal</asp:LinkButton>
+                    <asp:LinkButton
+                                ID="Hyperlink3" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="8pt" onmouseover="this.style.fontWeight='bolder'" onmouseout="this.style.fontWeight='normal'" CssClass = "EstiloBoton" Height="15px" PostBackUrl="~/Salida.aspx" Width="104px" Font-Italic="True" Font-Underline="False">Cerrar Sesión</asp:LinkButton></td>
+                <td align="left" colspan="2" style="width: 611px; height: 20px; text-align: right"
+                    valign="top">
+                    <div
+                                    id="lblFecha" runat="server" style="font-weight: normal; font-size: 8pt; text-transform: capitalize;
+                                    width: 400px; color: seagreen; font-family: Arial; height: 16px; text-align: right; font-style: italic; display: inline;">
+                                </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="width: 200px; height: 20px; background-position: center center; background-repeat: no-repeat; background-color: transparent; text-align: left;" valign="top">
+                    <uc3:Contador ID="Contador1" runat="server" />
+                </td>
+                <td align="left" colspan="3" style="height: 20px; text-align: right; width: 711px;" valign="top">
+                    <div id="lblAgrup" runat="server" style="width: 711px; color: seagreen; font-family: Arial;
+                        height: 16px; text-align: right; font-size: 8pt; font-style: italic; display: inline;">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 200px; height: 400px" valign="top">
+                   <uc4:MProyLeft ID="MProyLeft1" runat="server" />
+                </td>
+                <td align="left" style="width: 611px; height: 400px" valign="top" colspan="2">
+                    <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="True"
+                        EnableScriptLocalization="True">
+                    </asp:ScriptManager>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td align="left" style="width: 100px; height: 400px; text-align: right;" valign="top">
+                    <uc2:MProyRight ID="MProyRight1" runat="server" />
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td align="center" style="width: 200px; height: 24px" valign="middle">
+                    <asp:Image ID="Image1" runat="server" Height="60px" ImageAlign="Top" ImageUrl="~/Menu/TECNOLOGIAS VERDE.JPG"
+                        Width="70px" /></td>
+                <td align="left" style="width: 611px; height: 24px; font-weight: bold; font-size: 13pt; vertical-align: middle; color: darkgray; font-style: italic; text-align: center; font-variant: normal;" valign="top" colspan="2">
+                    Derechos Reservados: Tecnologias y Sistemas de Gestión SRL</td>
+                <td align="left" style="width: 100px; height: 24px" valign="top">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

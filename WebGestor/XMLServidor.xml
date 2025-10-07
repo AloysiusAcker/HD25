@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XMLServidor>
+   <Servidor>
+    <Empresa>BBVA</Empresa>
+    <Nombre>TECN2024A\BBVA</Nombre>
+    <Sigla>1BB</Sigla>
+  </Servidor>
+  <Servidor>
+    <Empresa>PRUEBAS BBVA</Empresa>
+    <Nombre>TECN2024A</Nombre>
+    <Sigla>1BB</Sigla>
+  </Servidor>
+  <Servidor>
+    <Empresa>Centro Gestion</Empresa>
+    <Nombre>TECNO2021A\tecnoprod21</Nombre>
+    <Sigla>1BB</Sigla>
+  </Servidor>
+  <Servidor>
+    <Empresa>Operaciones</Empresa>
+    <Nombre>TECNO2021A\operaciones</Nombre>
+    <Sigla>1BB</Sigla>
+  </Servidor>
+<Servidor>
+    <Empresa>ALONZO</Empresa>
+    <Nombre>ALONZO\SQLEXPRESS</Nombre>
+    <Sigla>1BB</Sigla>
+  </Servidor>
+ </XMLServidor>

@@ -1,0 +1,51 @@
+﻿.MyTabStyle .ajax__tab_header {
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+    .MyTabStyle .ajax__tab_header .ajax__tab_outer {
+        border-color: #222;
+        color: #222;
+        margin-right: 3px;
+        border: solid 1px #d7d7d7;
+    }
+
+    .MyTabStyle .ajax__tab_header .ajax__tab_inner {
+        border-color: #666;
+        color: #666;
+        padding: 3px 10px 2px 0px;
+    }
+
+    .MyTabStyle .ajax__tab_header .ajax__tab_container .ajax__tab_default {
+        left:300px; 
+    }
+
+    .MyTabStyle .ajax__tab_hover .ajax__tab_outer {
+    background-color: #9c3;
+}
+
+.MyTabStyle .ajax__tab_hover .ajax__tab_inner {
+    color: #fff;
+}
+
+.MyTabStyle .ajax__tab_active .ajax__tab_outer {
+    border-bottom-color: #ffffff;
+    background-color: #d7d7d7;
+    font-size: 14px;
+}
+
+.MyTabStyle .ajax__tab_active .ajax__tab_inner {
+    color: #000;
+    border-color: #333;
+}
+
+.MyTabStyle .ajax__tab_body {
+    font-family: Roboto, arial, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    border-top-width: 0;
+    border: solid 1px #fff;
+    border-top-color: #ffffff;
+}
