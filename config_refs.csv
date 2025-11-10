@@ -1,0 +1,8 @@
+file_path,key,value_masked,purpose,risk
+WebGestor/Web.config,googlemaps.subgurim.net,XXX...S-AI,auth,alto
+WebGestor/Web.config,ChartImageHandler,XXX...les\;,cache,bajo
+WebGestor/Web.config,swReferenciaBC.PersonaService,XXX....svc,auth,bajo
+WebGestor/Web.config,EPPlus:ExcelPackage.LicenseContext,XXX...cial,auth,bajo
+WebGestor/Web2.config,googlemaps.subgurim.net,XXX...S-AI,auth,alto
+WebGestor/Web2.config,ChartImageHandler,XXX...les\;,cache,bajo
+WebGestor/Web2.config,swReferenciaBC.PersonaService,XXX....svc,auth,bajo
