@@ -1,0 +1,45 @@
+package,version,license_guess,usage,evidence_path,source,target_framework
+Antlr,3.5.0.2,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+AspNet.ScriptManager.bootstrap,3.3.7,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+AspNet.ScriptManager.jQuery,3.3.1,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+BouncyCastle,1.8.9,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+ClosedXML,0.102.2,MIT,Exportación de datos a Excel con XLWorkbook,WebGestor/Inventario/Inventario_Articulo_Imagen.aspx.vb,curated,
+ClosedXML,0.102.2,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+DevExpress,19.1.7.0,Comercial,Componentes UI/dashboards web,WebGestor/EvaluacionProcesos/EvalProcesos_Dashboard.aspx,curated,
+DocumentFormat.OpenXml,2.16.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+EPPlus,6.2.6,Polyform (EPPlus 5/6),Generación de reportes Excel con ExcelPackage,WebGestor/Inventario/Inventario_ExportarExcel.aspx.vb,curated,
+EPPlus,6.2.6,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+EPPlus.Interfaces,6.1.1,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+EPPlus.System.Drawing,6.1.1,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+ExcelNumberFormat,1.1.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Irony.NetCore,1.0.11,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Microsoft.AspNet.FriendlyUrls.Core,1.0.2,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Microsoft.AspNet.FriendlyUrls.Core.es,1.0.2,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Microsoft.AspNet.ScriptManager.MSAjax,5.0.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Microsoft.AspNet.ScriptManager.WebForms,5.0.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Microsoft.AspNet.Web.Optimization,1.1.3,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Microsoft.AspNet.Web.Optimization.WebForms,1.1.3,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Microsoft.AspNet.Web.Optimization.es,1.1.3,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Microsoft.CodeDom.Providers.DotNetCompilerPlatform,2.0.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Microsoft.Web.Infrastructure,1.0.0.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Modernizr,2.8.3,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+Newtonsoft.Json,11.0.1,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+QRCoder,1.4.3,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+SixLabors.Fonts,1.0.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+System.Buffers,4.5.1,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+System.IO.Packaging,6.0.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+System.Memory,4.5.4,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+System.Net.Http,4.3.4,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+System.Numerics.Vectors,4.5.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+System.Runtime.CompilerServices.Unsafe,4.7.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+System.Security.Cryptography.Algorithms,4.3.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+System.Security.Cryptography.Encoding,4.3.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+System.Security.Cryptography.Primitives,4.3.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+System.Security.Cryptography.X509Certificates,4.3.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+System.Text.RegularExpressions,4.3.1,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+WebGrease,1.6.0,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+XLParser,1.5.2,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+bootstrap,3.3.7,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+iTextSharp,5.5.13.3,Comercial,Generación de documentos PDF,WebGestor/Inventario/Inventario_Imprimir_Placas.aspx.vb,curated,
+iTextSharp,5.5.13.3,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
+jQuery,3.3.1,Unknown,Referenced via WebGestor/packages.config,WebGestor/packages.config,packages.config,net461
