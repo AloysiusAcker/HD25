@@ -1,0 +1,7 @@
+process_id,loc,n_grid_like,n_sql_calls_hint,n_reports,n_devexpress,n_file_uploads,n_form_controls,has_codebehind
+inventario.inventario_recepcion_registrar.guardar,140,8,24,0,0,1,226,1
+inventario.inventario_recepcion_registrar.guardar_series,36,8,8,0,0,1,226,1
+inventario.inventario_recepcion_registrar.guardar_accesorios,17,8,0,0,0,1,226,1
+inventario.inventario_recepcion_registrar.ejecutar,515,8,159,0,0,1,226,1
+crm.crm_registrar.resolver,233,8,102,0,0,0,230,1
+crm.crm_registrar.borrar,5,8,0,0,0,0,230,1
