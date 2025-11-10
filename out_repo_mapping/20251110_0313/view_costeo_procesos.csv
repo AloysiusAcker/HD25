@@ -1,0 +1,7 @@
+process_id,module,cost_score,cpu_ms_est,db_reads,db_writes,storage_mb,egress_mb
+inventario.inventario_recepcion_registrar.guardar,Inventario,0.85,100,0,1,0.0,0.0
+inventario.inventario_recepcion_registrar.guardar_series,Inventario,1.62,120,0,2,0.0,0.0
+inventario.inventario_recepcion_registrar.guardar_accesorios,Inventario,0.08,80,0,0,0.0,0.0
+inventario.inventario_recepcion_registrar.ejecutar,Inventario,33.61,860,28,25,0.0,0.0
+crm.crm_registrar.resolver,CRM,15.71,460,8,15,0.0,0.0
+crm.crm_registrar.borrar,CRM,0.08,80,0,0,0.0,0.0

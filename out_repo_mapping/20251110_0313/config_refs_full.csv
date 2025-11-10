@@ -1,0 +1,8 @@
+file_path,setting_type,key,value_masked,is_secret
+WebGestor/Web.config,appSettings,ChartImageHandler,sto...\;,no
+WebGestor/Web.config,appSettings,EPPlus:ExcelPackage.LicenseContext,Non...al,no
+WebGestor/Web.config,appSettings,googlemaps.subgurim.net,AIz...AI,no
+WebGestor/Web.config,appSettings,swReferenciaBC.PersonaService,htt...vc,no
+WebGestor/Web2.config,appSettings,ChartImageHandler,sto...\;,no
+WebGestor/Web2.config,appSettings,googlemaps.subgurim.net,AIz...AI,no
+WebGestor/Web2.config,appSettings,swReferenciaBC.PersonaService,htt...vc,no

@@ -1,0 +1,3 @@
+module,cost_score,cpu_ms_est,db_reads,db_writes,storage_mb,egress_mb
+CRM,15.79,540.0,8.0,15.0,0.0,0.0
+Inventario,36.16,1160.0,28.0,28.0,0.0,0.0
