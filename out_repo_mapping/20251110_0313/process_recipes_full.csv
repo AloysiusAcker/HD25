@@ -1,7 +1,7 @@
-process_id,cpu_ms_est,db_reads,db_writes,storage_mb,egress_mb,emails,sms,ai_tokens,comments,module,page,page_path,codebehind_path,cost_score
-inventario.inventario_recepcion_registrar.guardar,100,0,1,0.0,0.0,0,0,0,Sub/Function btnGuardar_Click: INSERT/UPDATE/DELETE,Inventario,Inventario_Recepcion_Registrar.aspx,WebGestor/Inventario/Inventario_Recepcion_Registrar.aspx,WebGestor/Inventario/Inventario_Recepcion_Registrar.aspx.vb,0.85
-inventario.inventario_recepcion_registrar.guardar_series,120,0,2,0.0,0.0,0,0,0,Sub/Function btnGuardarS_Click: INSERT/UPDATE/DELETE,Inventario,Inventario_Recepcion_Registrar.aspx,WebGestor/Inventario/Inventario_Recepcion_Registrar.aspx,WebGestor/Inventario/Inventario_Recepcion_Registrar.aspx.vb,1.62
-inventario.inventario_recepcion_registrar.guardar_accesorios,80,0,0,0.0,0.0,0,0,0,Sub/Function btnGuardarAccCant_Click: sin patrones detectados,Inventario,Inventario_Recepcion_Registrar.aspx,WebGestor/Inventario/Inventario_Recepcion_Registrar.aspx,WebGestor/Inventario/Inventario_Recepcion_Registrar.aspx.vb,0.08
-inventario.inventario_recepcion_registrar.ejecutar,860,28,25,0.0,0.0,0,0,0,"Sub/Function btnEjecutar_Click: SELECT/SqlDataAdapter, INSERT/UPDATE/DELETE",Inventario,Inventario_Recepcion_Registrar.aspx,WebGestor/Inventario/Inventario_Recepcion_Registrar.aspx,WebGestor/Inventario/Inventario_Recepcion_Registrar.aspx.vb,33.61
-crm.crm_registrar.resolver,460,8,15,0.0,0.0,0,0,0,"Sub/Function cmdResolver_Click: SELECT/SqlDataAdapter, INSERT/UPDATE/DELETE",CRM,CRM_Registrar.aspx,WebGestor/CRM/CRM_Registrar.aspx,WebGestor/CRM/CRM_Registrar.aspx.vb,15.71
-crm.crm_registrar.borrar,80,0,0,0.0,0.0,0,0,0,Sub/Function cmdBorrar_Click: sin patrones detectados,CRM,CRM_Registrar.aspx,WebGestor/CRM/CRM_Registrar.aspx,WebGestor/CRM/CRM_Registrar.aspx.vb,0.08
+process_id,base_hours,adj_crud,adj_report,adj_export,adj_devexpress,adj_upload,adj_validation,complexity_score,est_hours_total,role_mix,risk_flags
+inventario.inventario_recepcion_registrar.guardar,8,0,0,0,0,0,0,3.4,11,"{""FE"":0.35,""BE"":0.35,""QA"":0.2,""PM"":0.1}",
+inventario.inventario_recepcion_registrar.guardar_series,8,0,0,0,0,0,0,3.4,11,"{""FE"":0.35,""BE"":0.35,""QA"":0.2,""PM"":0.1}",
+inventario.inventario_recepcion_registrar.guardar_accesorios,8,0,0,0,0,0,0,3.4,11,"{""FE"":0.35,""BE"":0.35,""QA"":0.2,""PM"":0.1}",
+inventario.inventario_recepcion_registrar.ejecutar,8,0,0,0,0,0,0,3.4,11,"{""FE"":0.35,""BE"":0.35,""QA"":0.2,""PM"":0.1}",
+crm.crm_registrar.resolver,8,0,0,0,0,0,0,3.4,11,"{""FE"":0.35,""BE"":0.35,""QA"":0.2,""PM"":0.1}",
+crm.crm_registrar.borrar,8,0,0,0,0,0,0,3.4,11,"{""FE"":0.35,""BE"":0.35,""QA"":0.2,""PM"":0.1}",
