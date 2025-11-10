@@ -1,0 +1,5 @@
+package,version,license_guess,usage,evidence_path
+EPPlus,6.2.6,"Polyform (EPPlus 5/6)","Generación de reportes Excel con ExcelPackage","WebGestor/Inventario/Inventario_ExportarExcel.aspx.vb"
+DevExpress,19.1.7.0,Comercial,"Componentes UI/dashboards web","WebGestor/EvaluacionProcesos/EvalProcesos_Dashboard.aspx"
+ClosedXML,0.102.2,MIT,"Exportación de datos a Excel con XLWorkbook","WebGestor/Inventario/Inventario_Articulo_Imagen.aspx.vb"
+iTextSharp,5.5.13.3,Comercial,"Generación de documentos PDF","WebGestor/Inventario/Inventario_Imprimir_Placas.aspx.vb"
