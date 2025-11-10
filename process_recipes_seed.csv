@@ -1,0 +1,7 @@
+process_id,cpu_ms_est,db_reads,db_writes,storage_mb,egress_mb,emails,sms,ai_tokens,comments
+inventario.inventario_recepcion_registrar.guardar,100,0,1,0.0,0.0,0,0,0,Sub/Function btnGuardar_Click: INSERT/UPDATE/DELETE
+inventario.inventario_recepcion_registrar.guardar_series,120,0,2,0.0,0.0,0,0,0,Sub/Function btnGuardarS_Click: INSERT/UPDATE/DELETE
+inventario.inventario_recepcion_registrar.guardar_accesorios,80,0,0,0.0,0.0,0,0,0,Sub/Function btnGuardarAccCant_Click: sin patrones detectados
+inventario.inventario_recepcion_registrar.ejecutar,860,28,25,0.0,0.0,0,0,0,"Sub/Function btnEjecutar_Click: SELECT/SqlDataAdapter, INSERT/UPDATE/DELETE"
+crm.crm_registrar.resolver,460,8,15,0.0,0.0,0,0,0,"Sub/Function cmdResolver_Click: SELECT/SqlDataAdapter, INSERT/UPDATE/DELETE"
+crm.crm_registrar.borrar,80,0,0,0.0,0.0,0,0,0,Sub/Function cmdBorrar_Click: sin patrones detectados
