@@ -1,0 +1,945 @@
+path,symbol,tb_layer,reason
+WebGestor/App_Code/Cls_Catalogo.vb,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/App_Code/Cls_Estado_Ticket.vb,name-match,TB01,match por 'ticket' en nombre
+WebGestor/App_Code/Cls_Estado_Ticket.vb,name-match,TB02,match por 'ticket' en nombre
+WebGestor/App_Code/Cls_Inventario.vb,Export,TB06,usa 'Export'
+WebGestor/App_Code/Cls_Inventario_Verificacion.vb,Export,TB06,usa 'Export'
+WebGestor/App_Code/Cls_Relacion_Ticket.vb,name-match,TB01,match por 'ticket' en nombre
+WebGestor/App_Code/Cls_Relacion_Ticket.vb,name-match,TB02,match por 'ticket' en nombre
+WebGestor/App_Code/ImagenesArt.vb,name-match,TB04,match por 'imagen' en nombre
+WebGestor/App_Code/ImagenesGuia.vb,name-match,TB04,match por 'imagen' en nombre
+WebGestor/App_Code/ModuloCas.vb,Export,TB06,usa 'Export'
+WebGestor/App_Code/clsEval_Proceso.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/App_Code/clsEval_Proceso.vb,Puntaje,TB05,usa 'Puntaje'
+WebGestor/App_Code/clsEval_Proceso_Funciones.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/App_Code/clsInv_Listados.vb,Export,TB06,usa 'Export'
+WebGestor/App_Code/clsMesaAyuda.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/App_Code/clsMesaAyuda.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/App_Data/web.config,name-match,TB06,match por 'data' en nombre
+WebGestor/CAS/CasReporte_IncidenteTotales.aspx,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/CasReporte_IncidenteTotales.aspx,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/CasReporte_IncidenteTotales.aspx.vb,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/CasReporte_IncidenteTotales.aspx.vb,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/CasReporte_IncidentexComponente.aspx,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/CasReporte_IncidentexComponente.aspx,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/CasReporte_IncidentexComponente.aspx.vb,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/CasReporte_IncidentexComponente.aspx.vb,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/CasReporte_IncidentexElemento.aspx,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/CasReporte_IncidentexElemento.aspx,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/CasReporte_IncidentexElemento.aspx.vb,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/CasReporte_IncidentexElemento.aspx.vb,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/Cas_DefineTablas1.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/CAS/Cas_DefineTablas1.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/CAS/Cas_DefineTablas1.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/CAS/Cas_DefineTablas1.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/CAS/Cas_DefineTablas2.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/CAS/Cas_DefineTablas2.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/CAS/Cas_Definicion_CarteraConsulta.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/CAS/Cas_Definicion_CarteraConsulta.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/CAS/Cas_Definicion_CarteraConsulta.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/CAS/Cas_ImportarPersona.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/CAS/Cas_ListaIncidentes_GrupoNivel2.aspx,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/Cas_ListaIncidentes_GrupoNivel2.aspx,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/Cas_ListaIncidentes_GrupoNivel2.aspx.vb,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/Cas_ListaIncidentes_GrupoNivel2.aspx.vb,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/Cas_ListaIncidentes_Nivel2.aspx,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/Cas_ListaIncidentes_Nivel2.aspx,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/Cas_ListaIncidentes_Nivel2.aspx.vb,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/Cas_ListaIncidentes_Nivel2.aspx.vb,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/Cas_Registra_Incidentes.aspx,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/Cas_Registra_Incidentes.aspx,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/Cas_Registra_Incidentes.aspx.vb,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/Cas_Registra_Incidentes.aspx.vb,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/Cas_RelacionIncidentes.aspx,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/Cas_RelacionIncidentes.aspx,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/Cas_RelacionIncidentes.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/CAS/Cas_RelacionIncidentes.aspx.vb,name-match,TB03,match por 'incident' en nombre
+WebGestor/CAS/Cas_RelacionIncidentes.aspx.vb,name-match,TB03,match por 'incidente' en nombre
+WebGestor/CAS/Cas_Relacion_Reportes.aspx,name-match,TB06,match por 'reportes' en nombre
+WebGestor/CAS/Cas_Relacion_Reportes.aspx.vb,name-match,TB06,match por 'reportes' en nombre
+WebGestor/CAS/TEMAS/HACDATA BASE CONOCIMIENTO.pdf,name-match,TB06,match por 'data' en nombre
+WebGestor/CAS/Temas_1BB/inv tablas.docx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/CAS/Temas_1TE/DATOS FOTOCHECK - BANCO 25 (00000003).xlsx,name-match,TB04,match por 'foto' en nombre
+WebGestor/CAS/Temas_1TE/inv tablas.docx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/CRM/CRM_BeseDatos_Mantenimiento.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/CRM/CRM_BeseDatos_Mantenimiento.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/CRM/CRM_BeseDatos_Mantenimiento.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/CRM/CRM_Enviar_Email.aspx.designer.vb,FileUpload,TB04,usa FileUpload
+WebGestor/CRM/CRM_Enviar_Email.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/CRM/CRM_Enviar_Email.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/CRM/CRM_Exportar.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/CRM/CRM_Relacion_Ticket.aspx,name-match,TB01,match por 'ticket' en nombre
+WebGestor/CRM/CRM_Relacion_Ticket.aspx,name-match,TB02,match por 'ticket' en nombre
+WebGestor/CRM/CRM_Relacion_Ticket.aspx.vb,CambiarEstado,TB01,usa 'CambiarEstado'
+WebGestor/CRM/CRM_Relacion_Ticket.aspx.vb,CambiarEstado,TB02,usa 'CambiarEstado'
+WebGestor/CRM/CRM_Relacion_Ticket.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/CRM/CRM_Relacion_Ticket.aspx.vb,Reasignar,TB01,usa 'Reasignar'
+WebGestor/CRM/CRM_Relacion_Ticket.aspx.vb,Reasignar,TB02,usa 'Reasignar'
+WebGestor/CRM/CRM_Relacion_Ticket.aspx.vb,name-match,TB01,match por 'ticket' en nombre
+WebGestor/CRM/CRM_Relacion_Ticket.aspx.vb,name-match,TB02,match por 'ticket' en nombre
+WebGestor/CRM/CRM_Tiempo_Estado_Ticket.aspx,name-match,TB01,match por 'ticket' en nombre
+WebGestor/CRM/CRM_Tiempo_Estado_Ticket.aspx,name-match,TB02,match por 'ticket' en nombre
+WebGestor/CRM/CRM_Tiempo_Estado_Ticket.aspx.designer.vb,name-match,TB01,match por 'ticket' en nombre
+WebGestor/CRM/CRM_Tiempo_Estado_Ticket.aspx.designer.vb,name-match,TB02,match por 'ticket' en nombre
+WebGestor/CRM/CRM_Tiempo_Estado_Ticket.aspx.vb,CambiarEstado,TB01,usa 'CambiarEstado'
+WebGestor/CRM/CRM_Tiempo_Estado_Ticket.aspx.vb,CambiarEstado,TB02,usa 'CambiarEstado'
+WebGestor/CRM/CRM_Tiempo_Estado_Ticket.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/CRM/CRM_Tiempo_Estado_Ticket.aspx.vb,name-match,TB01,match por 'ticket' en nombre
+WebGestor/CRM/CRM_Tiempo_Estado_Ticket.aspx.vb,name-match,TB02,match por 'ticket' en nombre
+WebGestor/CRM/Documento_TemasAyuda.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/CRM/Temas/CATALOGO SKUS - 31 JULIO.xlsx,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/CRM/Temas/DISEÑO DE TABLAS.xlsx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/CallCenter/CallCenter_CargaDatos.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Contabilidad/Contabilidad_TablasContable.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Contabilidad/Contabilidad_TablasContable.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Contabilidad/Contabilidad_TablasContables2.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Contabilidad/Contabilidad_TablasContables2.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Content/tessdata/eng.DangAmbigs,name-match,TB06,match por 'data' en nombre
+WebGestor/Content/tessdata/eng.freq-dawg,name-match,TB06,match por 'data' en nombre
+WebGestor/Content/tessdata/eng.inttemp,name-match,TB06,match por 'data' en nombre
+WebGestor/Content/tessdata/eng.normproto,name-match,TB06,match por 'data' en nombre
+WebGestor/Content/tessdata/eng.pffmtable,name-match,TB06,match por 'data' en nombre
+WebGestor/Content/tessdata/eng.unicharset,name-match,TB06,match por 'data' en nombre
+WebGestor/Content/tessdata/eng.user-words,name-match,TB06,match por 'data' en nombre
+WebGestor/Content/tessdata/eng.word-dawg,name-match,TB06,match por 'data' en nombre
+WebGestor/ControlPersonal/Person_Fotos.ashx,name-match,TB04,match por 'foto' en nombre
+WebGestor/ControlPersonal/Person_Record_Asistencia.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Css/dataTables.bootstrap.min.css,name-match,TB06,match por 'data' en nombre
+WebGestor/Default2.aspx.vb,DataSet,TB06,usa 'DataSet'
+WebGestor/Default4.aspx.vb,DataSet,TB06,usa 'DataSet'
+WebGestor/Documentacion/Documentacion_Mantenimiento.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Documentacion/Documentacion_Mantenimiento.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Encuesta/Encuesta_Anonimos_Des.aspx.vb,Puntaje,TB05,usa 'Puntaje'
+WebGestor/Encuesta/Encuesta_Des.aspx.vb,Puntaje,TB05,usa 'Puntaje'
+WebGestor/Encuesta/Encuestas_Realizadas.aspx.vb,Puntaje,TB05,usa 'Puntaje'
+WebGestor/EvaluacionProcesos/CapturarImagen.aspx,name-match,TB04,match por 'imagen' en nombre
+WebGestor/EvaluacionProcesos/CapturarImagen.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/CapturarImagen.aspx.vb,DataSet,TB06,usa 'DataSet'
+WebGestor/EvaluacionProcesos/CapturarImagen.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/CapturarImagen.aspx.vb,name-match,TB04,match por 'imagen' en nombre
+WebGestor/EvaluacionProcesos/CapturarImagen.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/EvaluacionProcesos/EvalProcesos.aspx.vb,Puntaje,TB05,usa 'Puntaje'
+WebGestor/EvaluacionProcesos/EvalProcesos.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Analisis.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Analisis.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_Analisis.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_AnalisisL.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_AnalisisL.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_AnalisisL.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Dashboard.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Dashboard.aspx.bak,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Dashboard.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_Dashboard.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Define_Oficinas.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Define_Oficinas.aspx.vb,DataSet,TB06,usa 'DataSet'
+WebGestor/EvaluacionProcesos/EvalProcesos_Define_Oficinas.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_Define_Oficinas.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Distancia_Entre2Direcciones.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Distancia_Entre2Direcciones.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_Distancia_Entre2Direcciones.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Generar.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Generar.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_Generar.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Grafica.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Grafica.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_Grafica.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_LisaRptaJalados.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_LisaRptaJalados.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_LisaRptaJalados.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_PagMaster.master,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_PagMaster.master.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_PagMaster.master.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Prevencion_Ingreso.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Prevencion_Ingreso.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_Prevencion_Ingreso.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Reclamo.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Reclamo.aspx.bak,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Reclamo.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_Reclamo.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_ReclamoLista.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_ReclamoLista.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_ReclamoLista.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Relacionar.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/EvalProcesos_Relacionar.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/EvalProcesos_Relacionar.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/GoogleMapsWeb.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/GoogleMapsWeb.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/GoogleMapsWeb.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/GoogleMaps_Prueba.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/GoogleMaps_Prueba.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/GoogleMaps_Prueba.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/PagPrincipal_EvalProceso.master,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/PagPrincipal_EvalProceso.master.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/PagPrincipal_EvalProceso.master.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/VB.aspx,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/EvaluacionProcesos/VB.aspx.vb,DataSet,TB06,usa 'DataSet'
+WebGestor/EvaluacionProcesos/VB.aspx.vb,Evaluacion,TB05,usa 'Evaluacion'
+WebGestor/EvaluacionProcesos/VB.aspx.vb,name-match,TB05,match por 'evaluacion' en nombre
+WebGestor/Fotos/1.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/16 (Back).ico,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/25-1.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/5.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/6.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/7.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/BtnSeleccionar.png,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/COMPLEMENTO5.JPG,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/Calendario.bmp,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/CasColombia.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/ImgContabilidad.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/LOGO WEB HACDATA.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/LOGO WEB HACDATA.jpg,name-match,TB06,match por 'data' en nombre
+WebGestor/Fotos/LOGO WEBCASH-04.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/LOGO WEBCASH-06.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/LOGO-HACDATA.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/LOGO-HACDATA.jpg,name-match,TB06,match por 'data' en nombre
+WebGestor/Fotos/Linea_Gris.bmp,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/LogoBoton.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/LogoOpplus.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/LogoOpplus1.JPG,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/Thumbs.db,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/animated.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/boton isotipo web-03.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/botonbuscar.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/buttonhover.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/buttonhover2.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/buttonhover3.GIF,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/buttonhover3.JPG,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/buttonround.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/buttonround2.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/buttonround3.GIF,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/buttonround3.JPG,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/flechazul1.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/foto cas 2.JPG,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/foto cas.JPG,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/grabar.png,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/icon2.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/linea.JPG,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/lineaCas.JPG,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/loading.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/logbbvaJPG.JPG,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/logo login.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/logo2.swf,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/logo_white.png,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/menu8.gif,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/nodatafound.png,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/nodatafound.png,name-match,TB06,match por 'data' en nombre
+WebGestor/Fotos/persona.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/proceso.JPG,name-match,TB04,match por 'foto' en nombre
+WebGestor/Fotos/tecnologias.swf,name-match,TB04,match por 'foto' en nombre
+WebGestor/GTP/GTP_Relacion_Ticket.aspx,name-match,TB01,match por 'ticket' en nombre
+WebGestor/GTP/GTP_Relacion_Ticket.aspx,name-match,TB02,match por 'ticket' en nombre
+WebGestor/GTP/GTP_Relacion_Ticket.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/GTP/GTP_Relacion_Ticket.aspx.vb,name-match,TB01,match por 'ticket' en nombre
+WebGestor/GTP/GTP_Relacion_Ticket.aspx.vb,name-match,TB02,match por 'ticket' en nombre
+WebGestor/GTP/GTP_Relacion_TiemposxEstados.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Gestion_Personal/Agencia_Empleador_Relacion.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Icono/LOGO WEB HACDATA.jpg,name-match,TB06,match por 'data' en nombre
+WebGestor/Icono/LOGO-HACDATA-M.jpg,name-match,TB06,match por 'data' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000011-17.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000011-17.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000011-53.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000011-53.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000011-54.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000011-54.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000011-72.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000011-72.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000011-73.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000011-73.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000108-43.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000108-43.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000112-30.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000112-30.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000177-04.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000177-04.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000185-03.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000185-03.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000200-57.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000200-57.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000202-22.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110000202-22.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110001620-35.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110001620-35.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110001620-45.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110001620-45.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110012435-02.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/110012435-02.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000114-01.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000114-01.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000118-01.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000118-01.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000196-09.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000196-09.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000357-10.JPG,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000357-10.JPG,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000357-14.JPG,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000357-14.JPG,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000530-13.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/120000530-13.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/5612986.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/5612986.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/ADAPATADOR-56.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/ADAPATADOR-56.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/CABLE-04.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/CABLE-04.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/CABLE-23.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/CABLE-23.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/CAFETERA-03.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/CAFETERA-03.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/CARGADOR-21.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/CARGADOR-21.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/CONTROL-04.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/CONTROL-04.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/DETECTOR-04.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/DETECTOR-04.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/DOCKING-05.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/DOCKING-05.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/DOCKING-07.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/DOCKING-07.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/ECRAN-03.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/ECRAN-03.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/EQUIPO-01.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/EQUIPO-01.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/ESTUCHE-01.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/ESTUCHE-01.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/FUNDA-01.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/FUNDA-01.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/IMPLEMENTOS-02.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/IMPLEMENTOS-02.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/LAMPARA-04.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/LAMPARA-04.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/LENTE-03.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/LENTE-03.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/LENTE-04.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/LENTE-04.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/LLAVE-07.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/LLAVE-07.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MALETA-02.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MALETA-02.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MATRIZ-01.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MATRIZ-01.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MICA-04.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MICA-04.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MOCHILA-08.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MOCHILA-08.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MODULO-45.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MODULO-45.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MOUSE-20.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/MOUSE-20.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/NTENA-04.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/NTENA-04.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/PARLANTE-06.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/PARLANTE-06.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/PORTA-04.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/PORTA-04.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/PREMIO-14.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/PREMIO-14.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/PREMIO-23.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/PREMIO-23.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/RACK-01.JPG,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/RACK-01.JPG,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/RACK-46.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/RACK-46.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/RW-03.JPG,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/RW-03.JPG,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/SKU FALTA IMAGENES ACTUALIZADO (Cintia).xlsx,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/SKU FALTA IMAGENES ACTUALIZADO (Cintia).xlsx,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/TABLERO-20.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/TABLERO-20.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/TOPE-01.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/TOPE-01.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/WhatsApp Image 2024-09-30 at 15.22.48.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ArchivoTemp/CATALOGO IMAGENES FALTANTES/WhatsApp Image 2024-09-30 at 15.22.48.jpeg,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/Capturar_Almacenar_Foto.aspx,name-match,TB04,match por 'foto' en nombre
+WebGestor/Inventario/Capturar_Almacenar_Foto.aspx.vb,name-match,TB04,match por 'foto' en nombre
+WebGestor/Inventario/Catalogo_Articulo.aspx,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/Catalogo_Articulo.aspx.designer.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Catalogo_Articulo.aspx.designer.vb,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/Catalogo_Articulo.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Catalogo_Articulo.aspx.vb,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/Catalogo_PlacaIni_Prop.aspx,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/Catalogo_PlacaIni_Prop.aspx.designer.vb,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/Catalogo_PlacaIni_Prop.aspx.vb,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/Foto_.ashx,name-match,TB04,match por 'foto' en nombre
+WebGestor/Inventario/ImagenGasto.ashx,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/ImagenHandler.ashx,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/Imagenes/FranlaLeft.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/Imagenes/LOGO WEB HACDATA.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/Imagenes/LOGO WEB HACDATA.jpg,name-match,TB06,match por 'data' en nombre
+WebGestor/Inventario/Imagenes/imgInforme.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/Inv_Definiciones_Tablas.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Inventario/Inv_Definiciones_Tablas.aspx.designer.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Inventario/Inv_Definiciones_Tablas.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Inventario/Inventario.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Almacen_Salida.aspx.vb,DataSet,TB06,usa 'DataSet'
+WebGestor/Inventario/Inventario_Articulo_Foto.aspx,name-match,TB04,match por 'foto' en nombre
+WebGestor/Inventario/Inventario_Articulo_Foto.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Articulo_Foto.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Articulo_Foto.aspx.vb,name-match,TB04,match por 'foto' en nombre
+WebGestor/Inventario/Inventario_Articulo_Imagen.aspx,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/Inventario_Articulo_Imagen.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Articulo_Imagen.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Articulo_Imagen.aspx.vb,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/Inventario_CCosto_Salida.aspx.vb,DataSet,TB06,usa 'DataSet'
+WebGestor/Inventario/Inventario_CCosto_Salida_Generar.aspx.vb,DataSet,TB06,usa 'DataSet'
+WebGestor/Inventario/Inventario_CargaFoto_xBiene.aspx,name-match,TB04,match por 'foto' en nombre
+WebGestor/Inventario/Inventario_CargaFoto_xBiene.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_CargaFoto_xBiene.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_CargaFoto_xBiene.aspx.vb,name-match,TB04,match por 'foto' en nombre
+WebGestor/Inventario/Inventario_Carga_Atms.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Carga_DatosIniciales.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Carga_Individual.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Carga_MovGps.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Carga_MovGps.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Cargar_Valor_Libro.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_CatalogoArticulo.aspx,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/Inventario_CatalogoArticulo.aspx.vb,name-match,TB06,match por 'catalogo' en nombre
+WebGestor/Inventario/Inventario_Conciliacion_Masiva.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Definiciones_Tablas.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Inventario/Inventario_Definiciones_Tablas.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Inventario/Inventario_EquiposConciliados.aspx.vb,CambiarEstado,TB01,usa 'CambiarEstado'
+WebGestor/Inventario/Inventario_EquiposConciliados.aspx.vb,CambiarEstado,TB02,usa 'CambiarEstado'
+WebGestor/Inventario/Inventario_EquiposConciliados.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_EquiposxAlmacen.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Estadistica.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_ExportarExcel.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Flujo_Atencion_Diaria.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_GPS.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_GPS.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Galeria_Fotos_xBien.aspx,name-match,TB04,match por 'foto' en nombre
+WebGestor/Inventario/Inventario_Galeria_Fotos_xBien.aspx.vb,name-match,TB04,match por 'foto' en nombre
+WebGestor/Inventario/Inventario_Garantia_Equipos.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Gastos.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Gastos.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_GenerarLista.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_GuiaRemision_Masiva.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_GuiaRemision_Masiva.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Ingreso_Bienes_Desuso.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Ingreso_Bienes_Desuso.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Ingreso_Equipos.aspx.vb,CambiarEstado,TB01,usa 'CambiarEstado'
+WebGestor/Inventario/Inventario_Ingreso_Equipos.aspx.vb,CambiarEstado,TB02,usa 'CambiarEstado'
+WebGestor/Inventario/Inventario_Ingreso_Series.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Ingreso_Series.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Ingreso_Series.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Interface_GPS.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Interface_GPS.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Kardex.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_ListaTablaMovimientos_ParaGps.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Inventario/Inventario_ListaTablaMovimientos_ParaGps.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Inventario/Inventario_Lista_BienesInventariado.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Lista_EquiposATratar.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Lista_Oficina_SinUbicaciones.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Monitoreo.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Movimiento_Equipos.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Pedido_Listado.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Pedido_Listado.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Recepcion_IngSeries.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Recepcion_IngSeries.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Recepcion_IngSeries.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Recepcion_Listado.aspx.vb,CambiarEstado,TB01,usa 'CambiarEstado'
+WebGestor/Inventario/Inventario_Recepcion_Listado.aspx.vb,CambiarEstado,TB02,usa 'CambiarEstado'
+WebGestor/Inventario/Inventario_Recepcion_Listado.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Recepcion_Listado.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Recepcion_Registrar.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Recepcion_Registrar.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Recepcion_Registrar.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Relacion_BienesInv.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Relacion_GuiaInterna.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Relacion_GuiaRemision.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Relacion_GuiaRemision.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Relacion_Movimientos.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Resumen.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Resumen_Estadistica.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Resumen_Oficinas.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_SalidasEnv_xRecibir.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Stock_Articulos.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/Inventario_Verificacion_Nueva.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Verificacion_Nueva.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Verificar.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Inventario/Inventario_Verificar.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Inventario/Inventario_Verificar_SinImagen.aspx,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/Inventario_Verificar_SinImagen.aspx.vb,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/Invnetario_Relacion_EquiposConciliados.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Inventario/SerieImagen.ashx,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Inventario/TomarFoto.aspx,name-match,TB04,match por 'foto' en nombre
+WebGestor/Inventario/TomarFoto.aspx.vb,name-match,TB04,match por 'foto' en nombre
+WebGestor/Inventario/fotoUpload.ashx,name-match,TB04,match por 'foto' en nombre
+WebGestor/Js/dataTables.bootstrap.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/Js/jquery.dataTables.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/Menu/IngresarElemento.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/MenuWeb/Imagenes_1TE/cuarto1.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m10.JPG,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m11.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m12.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m14.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m15.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m20.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m21.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m22.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m27.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m28.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m29.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m34.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m36.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m37.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m39.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m4.JPG,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m41.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m42.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m43.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m44.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m45.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m46.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m47.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m48.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m49.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m50.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m51.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m52.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m55.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m57.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m59.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m6.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m60.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m61.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m62.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m64.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m68.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m69.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m70.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m71.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m74.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m75.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m76.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m77.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m78.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m79.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m8.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m80.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m81.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m82.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m83.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m84.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m85.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m86.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m87.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m88.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m89.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m9.JPG,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m92.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MenuWeb/Imagenes_3TG/m93.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/MesaAyuda/AdminProblemas_Creacion.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion2.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion2.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion2.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion2.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion21.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion21.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion21.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion21.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion_Edicion.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion_Edicion.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion_Edicion.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/MesaAyuda/AdminProblemas_Creacion_Edicion.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Creacion_Edicion.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas1.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas1.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas1.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas1.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas1.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas1.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas2.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas2.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas2.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas2.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas2.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DefineTablas2.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Define_BaseDatos.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Define_BaseDatos.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Define_BaseDatos.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/MesaAyuda/AdminProblemas_Define_BaseDatos.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Define_BaseDatos.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Define_Personas.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Define_Personas.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Define_Personas.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Define_Personas.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DiferenciasTiempo.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DiferenciasTiempo.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DiferenciasTiempo.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_DiferenciasTiempo.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Lista_Enlace_TemasAyuda.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Lista_Enlace_TemasAyuda.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Lista_Enlace_TemasAyuda.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Lista_Enlace_TemasAyuda.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Listado.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Listado.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Listado.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/MesaAyuda/AdminProblemas_Listado.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Listado.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/MesaAyuda/AdminProblemas_Registrar.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/MesaAyuda/AdminProblemas_Registrar.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Fecha.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Fecha.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Fecha.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Fecha.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Fecha.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Fecha.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Usuario.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Usuario.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Usuario.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Usuario.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Usuario.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Registrar_Usuario.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Reportar.aspx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Reportar.aspx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Reportar.aspx.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/AdminProblemas_Reportar.aspx.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ANULACION DE RECEPCION.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ANULACION DE RECEPCION.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ANULACION RECEPCION DE EQUIPO 342.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ANULACION RECEPCION DE EQUIPO 342.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ANULACION SALIDA VERIFICAR.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ANULACION SALIDA VERIFICAR.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ANULACION SALIDA.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ANULACION SALIDA.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ANULAR SALIDA ERROR 3704.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ANULAR SALIDA ERROR 3704.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/CAMBIO DE MONEDA ORDENE DE COMPRA.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/CAMBIO DE MONEDA ORDENE DE COMPRA.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/CAMBIO DE PROVEEDOR.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/CAMBIO DE PROVEEDOR.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/Copia de ANEXO2+RM1212011+ACTFEB2013.xlsx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/Copia de ANEXO2+RM1212011+ACTFEB2013.xlsx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/DEVOLUCION DE EQUIPO AL PROVEEDOR.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/DEVOLUCION DE EQUIPO AL PROVEEDOR.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/DEVOLUCION POR PRESTAMO 2.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/DEVOLUCION POR PRESTAMO 2.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ERROR DE BUSQUEDA.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ERROR DE BUSQUEDA.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ERROR DE RECEPCION ACCESORIO.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ERROR DE RECEPCION ACCESORIO.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ERROR DEVOLUCION POR PRESTAMO.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ERROR DEVOLUCION POR PRESTAMO.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ERROR GENERA OC.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ERROR GENERA OC.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ERROR RECEPCION.bmp,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ERROR RECEPCION.bmp,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/GUIA 10428.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/GUIA 10428.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/GUIA A CORREGIR.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/GUIA A CORREGIR.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/INCLUSION SUMA EN ORDEN DE COMPRA.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/INCLUSION SUMA EN ORDEN DE COMPRA.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/MENSAJE DE USUARIO CADUCADO GESTOR PLUS.docx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/MENSAJE DE USUARIO CADUCADO GESTOR PLUS.docx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ORDEN DE COMPRA REGISTRO DE FACTURA.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ORDEN DE COMPRA REGISTRO DE FACTURA.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ORDEN DE VENTA SIN ESTADO.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/ORDEN DE VENTA SIN ESTADO.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/PROCESO ANULACION.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/PROCESO ANULACION.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/RECEPCION  ERROR 11.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/RECEPCION  ERROR 11.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/RELACION OC OV.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/RELACION OC OV.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/REPORTE DE COSTOS DE ARTICULO.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/REPORTE DE COSTOS DE ARTICULO.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/REPORTE DE GUIA DE REMISION.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/REPORTE DE GUIA DE REMISION.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/SALIDA A PROVEEDOR NO ENCUENTRA ARTICULOS.bmp,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/SALIDA A PROVEEDOR NO ENCUENTRA ARTICULOS.bmp,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/SALIDA DE MERCADERIA -21.bmp,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/SALIDA DE MERCADERIA -21.bmp,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/SALIDA DE MERCADERIA.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/SALIDA DE MERCADERIA.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/SALIDA NO GENERA.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/SALIDA NO GENERA.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/SERIES DUPLICADAS.bmp,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/SERIES DUPLICADAS.bmp,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/STOCK ART 1079.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/STOCK ART 1079.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/STOCK COMPROMETIDO.bmp,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/STOCK COMPROMETIDO.bmp,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/STOCK ERROR.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/STOCK ERROR.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/STOCK PARLANTES ERROR.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/STOCK PARLANTES ERROR.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/Thumbs.db,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/Thumbs.db,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/autoriza orden de venta.JPG,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/autoriza orden de venta.JPG,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/buttonhover2.gif,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/buttonhover2.gif,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/imag1.bmp,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Archivos/imag1.bmp,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Copia de ANEXO2+RM1212011+ACTFEB2013.xlsx,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/Copia de ANEXO2+RM1212011+ACTFEB2013.xlsx,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/PagPrincipal_MesaAyuda.master,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/PagPrincipal_MesaAyuda.master,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/PagPrincipal_MesaAyuda.master.vb,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/PagPrincipal_MesaAyuda.master.vb,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/imag1.bmp,name-match,TB01,match por 'mesaayuda' en nombre
+WebGestor/MesaAyuda/imag1.bmp,name-match,TB02,match por 'mesaayuda' en nombre
+WebGestor/OperadorLogistico/Inventario_Archivo_Telefonica.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/OperadorLogistico/Inventario_CargaAgenda.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/OperadorLogistico/Inventario_GuiaRemision.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/OperadorLogistico/Inventario_GuiaRemision_Admin.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/OperadorLogistico/Inventario_Personas_xFechaEntrega.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/PersonalAgenda/Agenda_Tablas.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/PersonalAgenda/Agenda_Tablas.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Reportes/CasReporte_EvMOficina.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/IncTotal.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/IxC.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/IxE.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/IxO.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/Registro_ConsultaXOficina.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/Registro_ProductoXOficina.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/Registro_RankingTerritorial.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/Registro_TematicasXOficina.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/Registro_TerritorialXOficinas.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/RepCas_CargosContactan.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/RepCas_OfxProducto.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Reportes/ResumenBD.rpt,name-match,TB06,match por 'reportes' en nombre
+WebGestor/Servicio/BaseDatos_Definicion.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Servicio/Gestion_Inspeccion_Desplazamiento.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Servicio/Inspeccion_Detalle.aspx.vb,DataSet,TB06,usa 'DataSet'
+WebGestor/Servicio/Inspeccion_Equipo_Mantenimiento.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Servicio/Inspeccion_ListaDetalleOficina.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Servicio/Inspeccion_Lista_DatosAdicionales.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Servicio/Inspeccion_Lista_DatosAdicionales_Usuarios.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Servicio/Inspeccion_Lista_OfPendiente.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Servicio/Inspeccion_Listado.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Servicio/Inspeccion_Reporte_ReqAd.aspx,name-match,TB05,match por 'qa' en nombre
+WebGestor/Servicio/Inspeccion_Reporte_ReqAd.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Servicio/Inspeccion_Reporte_ReqAd.aspx.vb,name-match,TB05,match por 'qa' en nombre
+WebGestor/Servicio/Inspeccion_Resumen.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Servicio/Temas/IMAGEN.jpeg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/ServicioIntegral/Imagenes/DEPA1.JPG,name-match,TB04,match por 'imagen' en nombre
+WebGestor/ServicioIntegral/Imagenes/NECESIDADES INFORMATICAS.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/ServicioIntegral/Imagenes/boton isotipo web-01.jpg,name-match,TB04,match por 'imagen' en nombre
+WebGestor/Sistema/Mantenimiento_TablasEspeciales.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Sistema/Mantenimiento_TablasEspeciales.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Sistema/Mantenimiento_TablasEspeciales_Activar.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Sistema/Mantenimiento_TablasEspeciales_Activar.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Sistema/Personal_Mostrar.aspx.vb,FileUpload,TB04,usa FileUpload
+WebGestor/Sistema/Personal_Mostrar.aspx.vb,SaveAs,TB04,usa SaveAs
+WebGestor/Sistema/SegSistem_Exportar_Datos.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Sistema/Tablas_Especiales_Mantenimiento.aspx,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Sistema/Tablas_Especiales_Mantenimiento.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/Sistema/Tablas_Especiales_Mantenimiento.aspx.vb,name-match,TB06,match por 'tabla' en nombre
+WebGestor/Ventas/Ventas_Registro_Oportunidades.aspx.vb,Export,TB06,usa 'Export'
+WebGestor/pages/tables/data.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/dataTables.bootstrap.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/dataTables.bootstrap.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/dataTables.bootstrap.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/Readme.txt,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/examples/columns.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/examples/complete-callback.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/examples/fill-both.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/examples/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/examples/scrolling.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/examples/simple.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/examples/step-callback.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/images/filler.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/License.txt,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/Readme.md,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/alt_insert.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/col_filter.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/colvis.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/fixedheader.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/jqueryui.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/new_init.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/predefined.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/realtime.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/reset.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/scrolling.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/server_side.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/simple.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/examples/state_save.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/images/insert.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/License.txt,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/Readme.md,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/button_order.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/exclude_columns.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/group_columns.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/jqueryui.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/mouseover.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/new_init.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/restore.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/simple.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/text.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/title_callback.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/two_tables.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/License.txt,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/Readme.md,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/col_filter.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/colvis.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/css_size.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/index_column.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/right_column.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/rowspan.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/simple.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/examples/two_columns.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedHeader/Readme.txt,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedHeader/examples/header_footer.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedHeader/examples/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedHeader/examples/simple.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedHeader/examples/two_tables.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/KeyTable/Readme.txt,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/KeyTable/examples/events.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/KeyTable/examples/html.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/KeyTable/examples/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/KeyTable/examples/scrolling.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/KeyTable/examples/simple.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/License.txt,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/Readme.md,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/child-rows/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/display-control/auto.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/display-control/classes.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/display-control/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/initialisation/className.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/initialisation/default.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/initialisation/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/initialisation/new.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/initialisation/option.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/styling/compact.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/styling/foundation.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/styling/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/Readme.txt,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/examples/api_scrolling.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/examples/data/2500.txt,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/examples/data/ssp.php,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/examples/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/examples/large_js_source.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/examples/server-side_processing.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/examples/simple.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/examples/state_saving.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/images/loading-background.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/Readme.md,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/ajax.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/alter_buttons.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/bootstrap.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/button_text.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/collection.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/defaults.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/index.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/jqueryui.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/multi_instance.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/multiple_tables.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/new_init.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/pdf_message.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/plug-in.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/select_column.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/select_multi.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/select_os.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/select_single.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/simple.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/examples/swf_path.html,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/collection.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/collection_hover.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/copy.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/copy_hover.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/csv.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/csv_hover.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/pdf.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/pdf_hover.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/print.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/print_hover.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/psd/collection.psd,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/psd/copy document.psd,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/psd/file_types.psd,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/psd/printer.psd,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/xls.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/images/xls_hover.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/images/sort_asc.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/images/sort_asc_disabled.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/images/sort_both.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/images/sort_desc.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/images/sort_desc_disabled.png,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/jquery.dataTables.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/jquery.dataTables.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/jquery.dataTables.min.css,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/jquery.dataTables.min.js,name-match,TB06,match por 'data' en nombre
+WebGestor/plugins/datatables/jquery.dataTables_themeroller.css,name-match,TB06,match por 'data' en nombre
+WebGestor/uploads/foto/07239084.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/uploads/foto/11111111.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/uploads/foto/40341631.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/uploads/foto/43059906.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/uploads/foto/45467889.jpg,name-match,TB04,match por 'foto' en nombre
+WebGestor/uploads/foto/46865288.jpg,name-match,TB04,match por 'foto' en nombre
