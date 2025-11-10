@@ -1,0 +1,34 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-and-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pytest coverage
+      - name: Pytest
+        run: |
+          if [ -d HD25 ]; then cd HD25; fi
+          coverage run -m pytest -q
+          coverage xml
+      - name: Verificar duplicados (2 días)
+        run: |
+          HD25/scripts/check_dupes_modified.sh
+      - name: Consistencia de hashes (canon vs paquete)
+        run: |
+          PKG_DIR=$(ls -td HD25/out_repo_mapping/20* HD25/HD25/out_repo_mapping/20* 2>/dev/null | head -n1)
+          if [ -z "$PKG_DIR" ]; then
+            PKG_DIR=$(ls -td out_repo_mapping/20* 2>/dev/null | head -n1)
+          fi
+          sha_canon=$(sha256sum HD25/data/out/process_recipes_full.csv 2>/dev/null | cut -d' ' -f1 || true)
+          if [ -z "$sha_canon" ]; then
+            sha_canon=$(sha256sum data/out/process_recipes_full.csv | cut -d' ' -f1)
+          fi
+          sha_pkg=$(sha256sum "$PKG_DIR/process_recipes_full.csv" | cut -d' ' -f1)
+          test "$sha_canon" = "$sha_pkg"

@@ -75,12 +75,20 @@ def load_complexity_signals(path: Path) -> Dict[str, ComplexitySignals]:
     return metrics
 
 
+def get_field(row: Dict[str, str], *keys: str) -> str:
+    for key in keys:
+        value = row.get(key)
+        if value:
+            return value
+    return ""
+
+
 def infer_verb(row: Dict[str, str]) -> str:
     verb = (row.get("verb") or "").strip().upper()
     if verb in BASE_HOURS_BY_VERB:
         return verb
-    page_name = (row.get("page_name") or "").lower()
-    path_aspx = (row.get("path_aspx") or "").lower()
+    page_name = get_field(row, "page_name", "page").lower()
+    path_aspx = get_field(row, "path_aspx", "page_path").lower()
     for token, mapped in (
         ("export", "EXPORT"),
         ("report", "REPORT"),
@@ -97,11 +105,11 @@ def infer_verb(row: Dict[str, str]) -> str:
 
 def gather_paths(row: Dict[str, str]) -> List[str]:
     paths: List[str] = []
-    for key in ("path_aspx", "path_vb"):
+    for key in ("path_aspx", "page_path", "path_vb", "codebehind_path"):
         value = (row.get(key) or "").strip()
         if value:
             paths.append(value)
-            if key == "path_aspx" and value.lower().endswith(".aspx"):
+            if key in {"path_aspx", "page_path"} and value.lower().endswith(".aspx"):
                 designer = f"{value}.designer.vb"
                 paths.append(designer)
     return paths
@@ -122,8 +130,8 @@ def compute_base_hours(verb: str) -> int:
 def detect_export(row: Dict[str, str], inferred_verb: str) -> bool:
     if inferred_verb == "EXPORT":
         return True
-    page_name = (row.get("page_name") or "").lower()
-    path_aspx = (row.get("path_aspx") or "").lower()
+    page_name = get_field(row, "page_name", "page").lower()
+    path_aspx = get_field(row, "path_aspx", "page_path").lower()
     return "export" in page_name or "export" in path_aspx
 
 
@@ -148,7 +156,7 @@ def compute_complexity_score(signals: ComplexitySignals) -> float:
 
 def compute_risk_flags(row: Dict[str, str], signals: ComplexitySignals, verb: str) -> str:
     flags = []
-    if not (row.get("path_vb") or "").strip():
+    if not get_field(row, "path_vb", "codebehind_path"):
         flags.append("missing_codebehind")
     if signals.n_sql_calls_hint > 10:
         flags.append("heavy_sql")
